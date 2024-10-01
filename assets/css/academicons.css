@@ -15,6 +15,10 @@
       url('../fonts/academicons.woff') format('woff'),
       url('../fonts/academicons.svg') format('svg');
 }
+body {
+  font-size: 15px;
+  color: black;
+}
 .ai {
 font-family: 'Academicons';
 font-weight: 400;
