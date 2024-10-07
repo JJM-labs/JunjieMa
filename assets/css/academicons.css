@@ -16,8 +16,13 @@
       url('../fonts/academicons.svg') format('svg');
 }
 body {
-  font-size: 15px;
   color: black;
+  font-size: 15px;
+  background-image: url('../../images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 .ai {
 font-family: 'Academicons';
