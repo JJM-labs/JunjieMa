@@ -103,6 +103,25 @@
       .image-centered img {
         margin-right: 6px;
       }
+      ul {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        display: flex; 
+        align-items: center;
+        margin: 1px 0;
+      }
+      li::before {
+        content: "";
+        display: inline-block;
+        width: 13px; 
+        height: 13px; 
+        background-image: url('./images/li.webp');
+        background-size: cover; 
+        margin-right: 8px;
+      }
     </style>
   </head>
   <body>
@@ -130,33 +149,35 @@
       </header>
       <section>
       <!-- class="content-section" -->
-        <img src="./images/ma.webp" height="150" width="120" alt="Junjie Ma">
+        <img src="./images/ma.webp" height="130" width="100" alt="Junjie Ma">
         <div class="text-content">
           <p style="margin-bottom: 12px;"> I am currently a student of <a href="https://lcyxy.bbmu.edu.cn/" target="_blank"> Department of Clinical Medicine </a> at the <a href="https://www.bbmu.edu.cn/" target="_blank"> Bengbu Medical University </a>. I will graduated with a bachelor in Clinical Medicine from <a href="https://www.bbmu.edu.cn/" target="_blank">Bengbu Medical University </a> in July 2025. </p>
         </div>
-        <p style="text-shadow: 0.6px 0.6px 0 #000; margin-bottom: 1px;" class=""> Reward </p> 
-        <p style="margin:0"> 2020/2021 &nbsp; The First Prize Scholarship. </p>
-        <p style="margin:0"> 2021/2022 &nbsp; The First Prize Scholarship. </p>
-        <p style="margin:0"> 2022/2023 &nbsp; The Grand Prize Scholarship. </p>
-        <p style="margin:0; margin-bottom: 10px;"> 2023/2024 &nbsp; The Grand Prize Scholarship. </p>
-        <p style="text-shadow: 0.6px 0.6px 0 #000; margin-bottom: 5px;" class=""> Competitions </p>
-        <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
-          <div style="width: 150px; display: flex; align-items: center;"> National: &nbsp; 5 </div>
-          <div>Provincial: &nbsp; 4 </div>
-        </div>
-        <p style="text-shadow: 0.6px 0.6px 0 #000; margin-bottom: 0px;" class=""> Software Skills </p>
-        <div style="display: flex; align-items: center; margin: 0;">
-          <div style="width: 150px; display: flex; align-items: center;"> R </div>
-          <div>Bioinformatics, Statistical Analysis, <br> Machine Learning, Research Drawing.</div>
-        </div>
-        <div style="display: flex; align-items: center; margin: 0;">
-          <div style="width: 150px; display: flex; align-items: center;"> Python </div>
-          <div>Machine Learning.</div>
-        </div>
-        <div style="display: flex; align-items: center; margin: 0;">
-          <div style="width: 150px; display: flex; align-items: center;"> Adobe Illustrator </div>
-          <div> Research Drawing. </div>
-        </div>
+        <ul>
+          <p style="text-shadow: 0.6px 0.6px 0 #000; margin-bottom: 1px;" class=""> Reward </p> 
+          <li> <p style="margin:0"> 2020/2021 &nbsp; The First Prize Scholarship. </p> </li>
+          <li> <p style="margin:0"> 2021/2022 &nbsp; The First Prize Scholarship. </p> </li>
+          <li> <p style="margin:0"> 2022/2023 &nbsp; The Grand Prize Scholarship. </p> </li>
+          <li> <p style="margin:0;"> 2023/2024 &nbsp; The Grand Prize Scholarship. </p> </li>
+          <p style="text-shadow: 0.6px 0.6px 0 #000;  margin-top: 10px; margin-bottom: 5px;" class=""> Competitions </p>
+          <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
+            <div style="width: 150px; display: flex; align-items: center;"> <li> National </li>: &nbsp; 5 </div>
+            <div>Provincial: &nbsp; 4 </div>
+          </div>
+          <p style="text-shadow: 0.6px 0.6px 0 #000; margin-top: 10px; margin-bottom: 1px;" class=""> Software Skills </p>
+          <div style="display: flex; align-items: center; margin: 0;">
+            <div style="width: 150px; display: flex; align-items: center;"> <li> R </li> </div>
+            <div>Bioinformatics, Statistical Analysis, <br> Machine Learning, Research Drawing.</div>
+          </div>
+          <div style="display: flex; align-items: center; margin: 0;">
+            <div style="width: 150px; display: flex; align-items: center; margin-bottom: 5px;"> <li> Python </li> </div>
+            <div>Machine Learning.</div>
+          </div>
+          <div style="display: flex; align-items: center; margin: 0;">
+            <div style="width: 150px; display: flex; align-items: center; margin-bottom: 5px;"> <li> Adobe Illustrator </li> </div>
+            <div> Research Drawing. </div>
+          </div>
+        </ul>
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
