@@ -97,13 +97,31 @@
       }
       .image-centered img {
         margin-right: 6px;
+      }ul {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        display: flex; 
+        align-items: center;
+        margin: 1px 0;
+      }
+      li::before {
+        content: "";
+        display: inline-block;
+        width: 13px; 
+        height: 13px; 
+        background-image: url('./images/li.webp');
+        background-size: cover; 
+        margin-right: 8px;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1> Junjie Ma </h1>
+        <h1 style="margin-bottom: 10px;"> Junjie Ma </h1>
         <p> Undergraduate Student<br>Bengbu Medical University </p>
         <p style="margin-top: 20px; margin-bottom: 3px; font-size: 16px;"> <i> <b> Pages </b> </i> </p>
         <h3> <a href="https://jjm-labs.github.io/JunjieMa/"> Home </a> </h3>
@@ -119,15 +137,20 @@
           <a href="https://scholar.google.com/citations?user=Hxfw-UQAAAAJ&hl=en" target="_blank" class="image-centered"> <img src="./images/google-scholar.webp" width="19" height="18"> Scholar </a> <br>
         </div>
         <p style="margin-top: 20px; margin-bottom: 1px; font-size: 16px;"> <i> <b> Contact </b> </i> </p>
-        <a href="mailto:mjj1428@163.com" class="email-link" target="_blank"> mjj1428@163.com </a> <br> Bengbu Medical University <br> No.2600 Donghai Avenue, Longzihu District, Bengbu 233030, Anhui, China </p>
+        <p> <a href="mailto:mjj1428@163.com" class="email-link" target="_blank"> mjj1428@163.com </a> <br>
+        <a href="https://www.bbmu.edu.cn" class="email-link" target="_blank"> Bengbu Medical University </a> 
+        <br> No.2600 Donghai Avenue, Longzihu District, Bengbu 233030, Anhui, China </p>
       <p> <small> Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" target="_blank"> orderedlist </a> </small> </p>
       </header>
       <section>
-    <h2 style="text-shadow: 0.6px 0.6px 0 #000;"> <a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"> <span class="octicon octicon-link"> </span></a> Educational Experience </h2>
-    <p style="margin:0"> 2020-10-10 to 2025-07-01 <br> <b> <i>Bachelor </i> </b> (Clinical Medicine) <br> <a href="https://www.bbmu.edu.cn/" target="_blank" style="margin:0; font-size:100%; font-weight:bold"> <i> Bengbu Medical University </i> </a> (Bengbu, Anhui, China) <br> <br>
-    <!--
-    <p style="margin:0"> 2025-09-01 to Now <br> <b> <i> Master </i></b> (Hepatopancreatobiliary Surgery) <br> <a href = "https://www.csu.edu.cn/" target="_blank" style="margin:0; font-size:100%; font-weight:bold"> <i> Central South University </i> </a> (Changsha, Hunan, China) <br> <br> 
-    -->
+        <h2 style="text-shadow: 0.6px 0.6px 0 #000;"> <a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"> <span class="octicon octicon-link"> </span></a> Educational Experience </h2>
+        <ul>
+        <p style="margin:0; font-size: 16px;"> 2020-10-10 to 2025-07-01  <br> <b> <i> Bachelor </i> </b> (Clinical Medicine) <br> <a href="https://www.bbmu.edu.cn/" target="_blank" style="margin:0; font-size:100%; font-weight:bold"> <i> Bengbu Medical University </i> </a> (Bengbu, Anhui, China) </p> <br>
+        
+        <!--
+        <p style="margin:0; font-size: 18px;"> 2025-09-01 to Now<br> <b> <i> Master </i> </b> (Hepatopancreatobiliary Surgery) <br> <a href="https://www.csu.edu.cn" target="_blank" style="margin:0; font-size:100%; font-weight:bold"> <i> Central South University </i> </a> (Changsha, Hunan, China) </p> <br> 
+        -->
+        </ul>
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
