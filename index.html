@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Junjie Ma </title>
     <link rel="icon" href="./files/images/GitHub.webp" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/styles_main.css">
+    <link rel="stylesheet" href="stylesheets/styles_detail.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <!--[if lt IE 9]>
@@ -31,99 +32,16 @@
     <!-- For all browsers -->
     <link rel="stylesheet" href="assets/css/academicons.min.css"/>
     <link rel="stylesheet" href="assets/css/academicons.css"/>
-    <style>
-      button.accordion {
-      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      cursor: pointer;
-      padding: 0px;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 100%;
-      transition: 0.3s;
-      background-color: #f8f8f8;
-      }
-      button.accordion.active, button.accordion:hover {
-      background-color: #f8f8f8;
-      }
-      button.accordion:after {
-      content: " [+] ";
-      font-size: 90%;
-      color:#777;
-      float: left;
-      margin-left: 1px;
-      }
-      button.accordion.active:after {
-      content: " [\2212] ";
-      }
-      div.panel {
-      padding: 0 20px;
-      margin-top: 5px;
-      display: none;
-      background-color: white;
-      font-size: 100%;
-      }
-      div.panel.show {
-      display: block !important;
-      }
-      .social-row {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .content-section {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 20px;
-      }
-      .content-section img {
-        margin-right: 20px;
-        max-width: 250px;
-        height: auto;
-      }
-      .text-content {
-        max-width: 700px;
-      }
-      .email-link {
-        color: black; 
-        text-decoration: none; 
-      }
-      .image-centered {
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-      }
-      .image-centered img {
-        margin-right: 6px;
-      }
-      ul {
-        list-style-type: none; 
-        padding: 0;
-        margin: 0;
-      }
-      li {
-        display: flex; 
-        align-items: center;
-        margin: 1px 0;
-      }
-      li::before {
-        content: "";
-        display: inline-block;
-        width: 13px; 
-        height: 13px; 
-        background-image: url('./files/images/li.webp');
-        background-size: cover; 
-        margin-right: 8px;
-      }
-    </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1 style="margin-bottom: 10px;"> Junjie Ma </h1>
-        <p> Undergraduate Student <br> Bengbu Medical University </p>
+        <div class="circular-image" style="margin-bottom: 15px;">
+          <img src="./files/images/ma_2.webp">
+        </div>
+        <h2 style="margin-bottom: 5px; margin-left: 30px;"> Junjie Ma </h2>
+        <p style="margin-bottom: 2px"> Undergraduate Student </p>
+        <a href="https://www.bbmu.edu.cn" class="black-link" target="_blank"> Bengbu Medical University </a>
         <p style="margin-top: 20px; margin-bottom: 3px; font-size: 16px;"> <i> <b> Pages </b> </i> </p>
         <h3> <a href="https://jjm-labs.github.io/JunjieMa/"> Home </a> </h3>
         <h3> <a href="https://jjm-labs.github.io/JunjieMa/education.html"> Education </a> </h3>
@@ -138,36 +56,42 @@
           <a href="https://scholar.google.com/citations?user=Hxfw-UQAAAAJ&hl=en" target="_blank" class="image-centered"> <img src="./files/images/google-scholar.webp" width="19" height="18"> Scholar </a> <br>
         </div>
         <p style="margin-top: 25px; margin-bottom: 1px; font-size: 16px;"> <i> <b> Contact </b> </i> </p>
-        <p> <a href="mailto:mjj1428@163.com" class="email-link" target="_blank"> mjj1428@163.com </a> <br> <a href="https://www.bbmu.edu.cn" class="email-link" target="_blank"> Bengbu Medical University </a> <br> No.2600 Donghai Avenue, Longzihu District, Bengbu 233030, Anhui, China </p>
+        <p> <a href="mailto:mjj1428@163.com" class="black-link" target="_blank"> mjj1428@163.com </a> <br> 
+        <a href="https://www.bbmu.edu.cn" class="black-link" target="_blank"> Bengbu Medical University </a> <br> 
+        No.2600 Donghai Avenue, Longzihu District, Bengbu 233030, Anhui, China </p>
       <p> <small> Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" target="_blank"> orderedlist </a> </small> </p>
       </header>
       <section>
       <!-- class="content-section" -->
-        <div style="display: flex; align-items: flex-start;">
-          <img src="./files/images/ma_2.webp" height="160" width="120" alt="Junjie Ma" style="margin-top: 4px;">
-          <div class="text-content" style="max-width: 235px;">
-            <p style="margin-top: 6.5px; margin-bottom: 12px; margin-left: 22px; font-size: 16.5px;"> I am currently a student in the  department of clinical medicine at <a href="https://www.bbmu.edu.cn" target="_blank"> Bengbu Medical University </a> and will graduate with a bachelor's degree in clinical medicine in July 2025. </p>
-          </div>
-        </div>
+        <p class="index-title"> Self Introduction </p> 
+        <p style="margin-bottom: 12px; margin-right: 160px; font-size: 16.5px;"> I am currently a student in the  department of clinical medicine at <a href="https://www.bbmu.edu.cn" target="_blank"> Bengbu Medical University </a> and will graduate with a bachelor's degree in clinical medicine in July 2025. </p>
         <ul>
-          <p style="text-shadow: 0.6px 0.6px 0 #000; margin-top: 18px; margin-bottom: 1px;" class=""> Reward </p> 
+          <p class="index-title"> Reward </p> 
           <li> <p style="margin:0"> 2020/2021 &nbsp; The First Prize Scholarship. </p> </li>
           <li> <p style="margin:0"> 2021/2022 &nbsp; The First Prize Scholarship. </p> </li>
           <li> <p style="margin:0"> 2022/2023 &nbsp; The Grand Prize Scholarship. </p> </li>
           <li> <p style="margin:0;"> 2023/2024 &nbsp; The Grand Prize Scholarship. </p> </li>
-          <p style="text-shadow: 0.6px 0.6px 0 #000;  margin-top: 20px; margin-bottom: 5px;" class=""> Competitions </p>
+          
+          <p class="index-title"> Competitions </p>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
-            <div style="width: 140px; display: flex; align-items: center;"> <li> National </li>: &nbsp; 5 </div>
-            <div>Provincial: &nbsp; 4 </div>
+            <div style="width: 140px; display: flex; align-items: center;"> <li> National </li>: &nbsp; 5 </div> &nbsp;
+            <div>Provincial: 4 </div>
           </div>
-          <p style="text-shadow: 0.6px 0.6px 0 #000; margin-top: 20px; margin-bottom: 0.5px;" class=""> Software Skills </p>
+          
+          <p class="index-title"> Papers </p>
+          <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
+            <div style="width: 140px; display: flex; align-items: center;"> <li> First author </li>: &nbsp; 4 </div> &nbsp; &nbsp;
+            <div>Co-author: 7 </div>
+          </div>
+          
+          <p class="index-title"> Software Skills </p>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 4px;">
             <div style="width: 140px; display: flex; align-items: center;"> <li> R </li> </div>
             <div>Bioinformatics, Statistical Analysis, <br> Machine Learning, Research Plotting.</div>
           </div>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 5px;">
             <div style="width: 140px; display: flex; align-items: center;"> <li> Python </li> </div>
-            <div>Machine Learning.</div>
+            <div> Machine Learning. </div>
           </div>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 5px;">
             <div style="width: 140px; display: flex; align-items: center;"> <li> AI &amp; PS </li> </div>
