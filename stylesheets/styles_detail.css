@@ -1,33 +1,33 @@
 button.accordion {
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
   padding: 0px;
   border: none;
-  text-align: left;
   outline: none;
   font-size: 100%;
   transition: 0.3s;
+  text-align: left;
   background-color: #f8f8f8;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 button.accordion.active, button.accordion:hover {
   background-color: #f8f8f8;
 }
 button.accordion:after {
-  content: " [+] ";
-  font-size: 90%;
   color:#777;
   float: left;
+  font-size: 90%;
   margin-left: 1px;
+  content: " [+] ";
 }
 button.accordion.active:after {
   content: " [\2212] ";
 }
 div.panel {
+  display: none;
   padding: 0 20px;
   margin-top: 5px;
-  display: none;
-  background-color: white;
   font-size: 100%;
+  background-color: white;
 }
 div.panel.show {
   display: block !important;
@@ -41,13 +41,13 @@ div.panel.show {
 }
 .content-section {
   display: flex;
-  align-items: flex-start;
   margin-top: 20px;
+  align-items: flex-start;
 }
 .content-section img {
-  margin-right: 20px;
-  max-width: 250px;
   height: auto;
+  max-width: 250px;
+  margin-right: 20px;
 }
 .text-content {
   max-width: 700px;
@@ -59,26 +59,31 @@ div.panel.show {
   letter-spacing: 0.5px;
   text-shadow: 0.6px 0.6px 0 #000; 
 }
+.h3-img {
+  margin-left: 3px; 
+  margin-right: 5px; 
+  vertical-align: bottom; 
+}
 .black-link {
   color: black; 
   text-decoration: none; 
 }
 .image-centered {
   display: flex; 
-  justify-content: center;
   align-items: center;
   text-decoration: none;
+  justify-content: center;
 }
 .image-centered img {
   margin-right: 6px;
 }
 .circular-image {
-  border-radius: 50%;
+  margin: 0px;
   width: 150px;
   height: 150px;
   overflow: hidden;
-  margin: 0px;
   margin-left: 20px;
+  border-radius: 50%;
   outline: 4px solid #ccc;
 }
 .circular-image img {
@@ -122,26 +127,26 @@ div.panel.show {
   color: #333;
 }
 .modal-content img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   border-radius: 8px;
 }
 ul {
-  list-style-type: none; 
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style-type: none; 
 }
 li {
+  margin: 1px 0;
   display: flex; 
   align-items: center;
-  margin: 1px 0;
 }
 li::before {
   content: "";
-  display: inline-block;
   width: 13px; 
   height: 13px; 
-  background-image: url('../files/images/li.webp');
-  background-size: cover; 
   margin-right: 8px;
+  display: inline-block;
+  background-size: cover; 
+  background-image: url('../files/images/li.webp');
 }

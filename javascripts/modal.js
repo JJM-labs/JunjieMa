@@ -5,8 +5,10 @@ function closeModal(modalId) {
     document.getElementById(modalId).style.display = 'none';
 }
 window.onclick = function(event) {
-  var modal = document.getElementById('myModal');
-  if (event.target === modal) {
-    closeModal();
-  }
-}
+    var modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+        if (event.target === modal) {
+            closeModal(modal.id); 
+        }
+    });
+};
