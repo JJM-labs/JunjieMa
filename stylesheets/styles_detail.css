@@ -113,8 +113,8 @@ div.panel.show {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .close {
-  top: -12px;
-  right: 2px;
+  top: -8px;
+  right: 5px;
   color: #aaa;
   padding: 2px;
   font-size: 24px;
