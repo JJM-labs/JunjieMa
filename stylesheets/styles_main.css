@@ -107,8 +107,18 @@ img {
 header {
   width:270px;
   float:left;
+  height: 100vh;
   position:fixed;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+header::-webkit-scrollbar {
+    display: none;
 }
 
 header ul {
