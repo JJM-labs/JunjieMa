@@ -1,5 +1,5 @@
 
-const lastUpdated = "October 15, 2024";
+const lastUpdated = "October 16, 2024";
 
 function displayLastUpdatedDate() {
     const dateElement = document.getElementById("lastUpdatedDate");
