@@ -18,6 +18,12 @@
   letter-spacing: 0.5px;
   text-shadow: 0.6px 0.6px 0 #000; 
 }
+.index-text-indent { 
+  font-size:18px;
+  text-indent:2em;
+  text-align:left; 
+  margin-bottom:5px;
+}
 .h3-img {
   margin-left: 3px; 
   margin-right: 5px; 
