@@ -15,15 +15,6 @@
       url('../fonts/academicons.woff') format('woff'),
       url('../fonts/academicons.svg') format('svg');
 }
-body {
-  color: black;
-  font-size: 15px;
-  background-image: url('../../files/images/background_1.webp'); 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-}
 .ai {
 font-family: 'Academicons';
 font-weight: 400;
