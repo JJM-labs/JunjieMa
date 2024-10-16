@@ -173,7 +173,7 @@
         </p>
         
         <p style="margin-bottom:0.01px;"><small>
-          <img src="files/images/logo/update.png" width="9" height="9" style="vertical-align: middle;">
+          <img src="files/images/logo/update.webp" width="9" height="9" style="vertical-align: middle;">
           <span id="lastUpdatedDate"></span>
         </small></p>
         <p> <small>
@@ -196,7 +196,7 @@
             <div style="width: 140px; display: flex; align-items: center;">
               <li> National </li>: 4 &nbsp;
               <a href="#" onclick="showModal('CompModalNational')">
-              [+]
+                [+]
               </a>
               <div id="CompModalNational" class="modal">
                 <div class="modal-content" style="max-width: 600px;">
@@ -224,9 +224,9 @@
             
             </div>
             <div style="margin-left:38px">
-              Provincial: 4 &nbsp;
+              Provincial: 4 
               <a href="#" onclick="showModal('CompModalProv')">
-              [+]
+                [+]
               </a>
               <div id="CompModalProv" class="modal">
                 <div class="modal-content" style="max-width: 600px;">
@@ -259,7 +259,7 @@
             <div style="width: 140px; display: flex; align-items: center;">
               <li> First author </li>: 4 &nbsp; 
               <a href="#" onclick="showModal('PaperModal')">
-              [+]
+                [+]
               </a>
               <div id="PaperModal" class="modal">
                 <div class="modal-content">
@@ -275,9 +275,9 @@
               </div>
             </div>
             <div style="margin-left:50px">
-              Co-author: 7 &nbsp; 
+              Co-author: 7 
               <a href="#" onclick="showModal('PaperModal')">
-              [+]
+                [+]
               </a>
               <div id="PaperModal" class="modal">
                 <div class="modal-content">
@@ -297,7 +297,35 @@
           <p class="index-title"> Software Skills </p>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 4px;">
             <div style="width: 140px; display: flex; align-items: center;"> <li> R </li> </div>
-            <div>Bioinformatics, Statistical Analysis, <br> Machine Learning, Research Plotting.</div>
+            <div>
+              <a href="#" onclick="showModal('SkillModalBioinfo')">
+              Bioinformatics,
+              </a> 
+              <div id="SkillModalBioinfo" class="modal">
+                <div class="modal-content" style="max-width: 600px;">
+                  <span class="close" onclick="closeModal('SkillModalBioinfo')"> &times; </span>
+                  <p style="font-size:20px; margin-bottom:20px; margin-top:5px;"> Bioinformatics analysis skills </p>
+                  <p style="font-size:18px; margin-bottom:30px; text-align:justify;">
+                    I am able to independently utilize a variety of methods and processes for bioinformatics analysis, including: multi-omics, single-cell and spatial transcriptomics analysis.
+                  </p>
+                  <img src="files/images/index/bioinformatics.webp">
+                </div>
+              </div>
+              Statistical Analysis, <br> 
+              <a href="#" onclick="showModal('SkillModalML')">
+              Machine Learning,
+              </a> 
+              <div id="SkillModalML" class="modal">
+                <div class="modal-content" style="max-width: 600px;">
+                  <span class="close" onclick="closeModal('SkillModalML')"> &times; </span>
+                  <p style="font-size:20px; margin-bottom:20px; margin-top:5px;"> Machine learning analysis skills </p>
+                  <p style="font-size:18px; margin-bottom:30px; text-align:justify;">
+                    I am able to independently perform machine learning analysis, including data cleaning, feature screening, model construction and evaluation, model interpretability, and constructing online predictive shiny web pages based on machine learning model.
+                  </p>
+                  <img src="files/images/index/ml.webp">
+                </div>
+              </div>
+              Research Plotting. </div>
           </div>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 5px;">
             <div style="width: 140px; display: flex; align-items: center;"> <li> Python </li> </div>
