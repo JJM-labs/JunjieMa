@@ -12,6 +12,5 @@ function updateTime() {
     const formattedTime = `${hours}:${minutes}:${seconds} ${dayOfWeek} (UTC${offsetSign}${offsetHours}:${offsetMinutes})`;
     document.getElementById('time').textContent = formattedTime;
 }
-
 setInterval(updateTime, 1000);
 updateTime();

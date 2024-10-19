@@ -1,9 +1,7 @@
 window.addEventListener('scroll', function() {
-  
   const header = document.querySelector('header');
   const scrollY = window.scrollY;
   const headerHeight = header.offsetHeight;
-
   if (headerHeight < window.innerHeight) {
     header.style.position = 'fixed';
   } else {
