@@ -96,3 +96,31 @@
   max-width: 100%;
   border-radius: 8px;
 }
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: transparent; 
+    color: #3399cc; 
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 24px;
+    display: none;
+    transition: color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease, background 0.5s ease; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+#scrollToTopButton:hover {
+  color: #1c7aae; 
+  background: rgba(51, 153, 204, 0.1); 
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+#scrollToTopButton:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
