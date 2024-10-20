@@ -132,8 +132,8 @@ li::before {
 }
 
 header {
-  width:270px;
   float:left;
+  width:270px;
   height: 90vh;
   position:fixed;
   overflow: hidden;
@@ -149,20 +149,20 @@ header::-webkit-scrollbar {
 }
 
 header ul {
-  list-style:none;
-  height:40px;
   padding:0;
-  background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
+  height:40px;
   width:270px;
+  list-style:none;
+  border-radius:5px;
+  background: #f4f4f4;
+  border:1px solid #e0e0e0;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
   height:40px;
+  border-right:1px solid #e0e0e0;
 }
 
 header li:first-child a {
@@ -174,13 +174,13 @@ header li:last-child a {
 }
 
 header ul a {
+  color:#999;
+  height:34px;
+  display:block;
   line-height:1;
   font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
   padding-top:6px;
-  height:34px;
+  text-align:center;
 }
 
 header ul a:hover {
@@ -197,14 +197,14 @@ strong {
 }
 
 header ul li + li + li {
-  border-right:none;
   width:89px;
+  border-right:none;
 }
 
 header ul a strong {
+  color:#222;
   font-size:14px;
   display:block;
-  color:#222;
 }
 
 section {
@@ -219,16 +219,16 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+  background:#e5e5e5;
 }
 
 footer {
-  width:270px;
   float:left;
-  position:fixed;
+  width:270px;
   bottom:50px;
+  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -241,8 +241,8 @@ footer {
 
   header, section, footer {
     float:none;
-    position:static;
     width:auto;
+    position:static;
   }
 
   header {
@@ -250,10 +250,10 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
+    border-width:1px 0;
+    border:1px solid #e5e5e5;
   }
 
   header a small {
@@ -261,9 +261,9 @@ footer {
   }
 
   header ul {
-    position:absolute;
-    right:50px;
     top:52px;
+    right:50px;
+    position:absolute;
   }
 }
 
@@ -301,8 +301,8 @@ footer {
 
 @media print {
   body {
+    color:#444;
     padding:0.4in;
     font-size:12pt;
-    color:#444;
   }
 }
