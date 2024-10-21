@@ -82,18 +82,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .close {
-  top: -8px;
+  top: -10px;
   right: 5px;
   color: #aaa;
   padding: 2px;
-  font-size: 24px;
+  font-size: 28px;
   cursor: pointer;
   font-weight: bold;
   position: absolute;
-  transition: color 0.3s;
+  transform-origin: center;
+  transition: color 0.3s, transform 0.3s;  
 }
 .close:hover {
-  color: #333;
+  color: #3399cc;
+  transform: scale(1.1);
 }
 .modal-content img {
   height: auto;
