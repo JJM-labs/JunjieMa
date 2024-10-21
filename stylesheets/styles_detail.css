@@ -81,6 +81,20 @@
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.modal-content img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+.modal-img {
+  display: inline-block; 
+  transform-origin: center;
+  transition: transform 0.6s; 
+}
+.modal-img:hover {
+  color: #3399cc;
+  transform: scale(1.1);
+}
 .close {
   top: -10px;
   right: 5px;
@@ -91,16 +105,11 @@
   font-weight: bold;
   position: absolute;
   transform-origin: center;
-  transition: color 0.3s, transform 0.3s;  
+  transition: color 0.3s, transform 0.5s;  
 }
 .close:hover {
   color: #3399cc;
   transform: scale(1.1);
-}
-.modal-content img {
-  height: auto;
-  max-width: 100%;
-  border-radius: 8px;
 }
 #scrollToTopButton {
     z-index: 99;
@@ -116,7 +125,7 @@
     border-radius: 15px;
     background: transparent; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
-    transition: color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease, background 0.5s ease; 
+    transition: color 0.5s ease, transform 0.6s ease, box-shadow 0.5s ease, background 0.5s ease; 
 }
 #scrollToTopButton:hover {
   color: #1c7aae; 
