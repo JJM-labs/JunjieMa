@@ -3,14 +3,17 @@
   margin-top: 20px;
   align-items: flex-start;
 }
+
 .content-section img {
   height: auto;
   max-width: 250px;
   margin-right: 20px;
 }
+
 .text-content {
   max-width: 700px;
 }
+
 .index-title { 
   font-size: 18px; 
   margin-top: 25px; 
@@ -18,30 +21,36 @@
   letter-spacing: 0.5px;
   text-shadow: 0.6px 0.6px 0 #000; 
 }
+
 .index-text-indent { 
   font-size:18px;
   text-indent:2em;
   text-align:left; 
   margin-bottom:5px;
 }
+
 .h3-img {
   margin-left: 3px; 
   margin-right: 5px; 
   vertical-align: bottom; 
 }
+
 .black-link {
   color: black; 
   text-decoration: none; 
 }
+
 .image-centered {
   display: flex; 
   align-items: center;
   text-decoration: none;
   justify-content: center;
 }
+
 .image-centered img {
   margin-right: 6px;
 }
+
 .circular-image {
   margin: 0px;
   width: 150px;
@@ -51,10 +60,12 @@
   border-radius: 50%;
   outline: 4px solid #ccc;
 }
+
 .circular-image img {
   width: 100%;
   height: auto;
 }
+
 .modal {
   top: 0;
   left: 0;
@@ -68,6 +79,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .modal-content {
   width: 80%;
   padding: 20px;
@@ -81,20 +93,24 @@
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .modal-content img {
   height: auto;
   max-width: 100%;
   border-radius: 8px;
 }
+
 .modal-img {
   display: inline-block; 
   transform-origin: center;
   transition: transform 0.6s; 
 }
+
 .modal-img:hover {
   color: #3399cc;
   transform: scale(1.1);
 }
+
 .close {
   top: -10px;
   right: 5px;
@@ -107,10 +123,12 @@
   transform-origin: center;
   transition: color 0.3s, transform 0.5s;  
 }
+
 .close:hover {
   color: #3399cc;
   transform: scale(1.1);
 }
+
 #scrollToTopButton {
     z-index: 99;
     bottom: 20px;
@@ -127,12 +145,14 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
     transition: color 0.5s ease, transform 0.6s ease, box-shadow 0.5s ease, background 0.5s ease; 
 }
+
 #scrollToTopButton:hover {
   color: #1c7aae; 
   transform: translateY(-5px); 
   background: rgba(51, 153, 204, 0.1); 
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
+
 #scrollToTopButton:active {
   transform: translateY(2px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
