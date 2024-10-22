@@ -27,8 +27,6 @@ jobs:
       - name: Use Google Analytics key
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-
-      - name: Run Python script to fetch analytics data
         run: python pyscripts/get_analytics_data.py
 
       - name: Commit and push csv data
