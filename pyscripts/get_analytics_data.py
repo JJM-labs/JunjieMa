@@ -25,7 +25,7 @@ def get_report(analytics):
     body = {
         'reportRequests': [
             {
-                'viewId': 'G-VN909T72NS,  # 替换为你的 View ID
+                'viewId': 'G-VN909T72NS',  # 替换为你的 View ID
                 'dateRanges': [
                     {
                         'startDate': '7daysAgo',
