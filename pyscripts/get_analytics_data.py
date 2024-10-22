@@ -6,11 +6,11 @@ property_id = "G-VN909T72NS"
 starting_date = "8daysAgo"
 ending_date = "yesterday"
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'google-analytics-key.json'
+if __name__ == '__main__':
+    GOOGLE_APPLICATION_CREDENTIALS = os.environ["GOOGLE_APPLICATION_CREDENTIALS"]
 
-
-from google.analytics.admin import BetaAnalyticsDataClient
-from google.analytics.admin.types import (
+from google.analytics.data_v1beta import BetaAnalyticsDataClient
+from google.analytics.data_v1beta.types import (
     DateRange,
     Dimension,
     Metric,

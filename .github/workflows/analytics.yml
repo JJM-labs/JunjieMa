@@ -22,11 +22,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --upgrade google.analytics.admin itertools pandas os
+          pip install google.analytics.data_v1beta itertools pandas os
 
       - name: Use Google Analytics key
-        run: |
-          echo "${{ secrets.GOOGLE_ANALYTICS_KEY }}" > google-analytics-key.json
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
 
       - name: Run Python script to fetch analytics data
         run: python pyscripts/get_analytics_data.py
@@ -35,6 +35,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add file.csv
+          git add files/file.csv
           git commit -m "Update Google Analytics data"
           git push
