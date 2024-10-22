@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --upgrade google.analytics.data_v1beta google.analytics.data_v1beta.types itertools pandas os
+          pip install --upgrade google.analytics.admin google.analytics.admin.types itertools pandas os
 
       - name: Use Google Analytics key
         run: |

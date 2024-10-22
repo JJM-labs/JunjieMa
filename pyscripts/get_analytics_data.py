@@ -9,8 +9,8 @@ ending_date = "yesterday"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'google-analytics-key.json'
 
 
-from google.analytics.data_v1beta import BetaAnalyticsDataClient
-from google.analytics.data_v1beta.types import (
+from google.analytics.admin import BetaAnalyticsDataClient
+from google.analytics.admin.types import (
     DateRange,
     Dimension,
     Metric,
