@@ -27,6 +27,8 @@ jobs:
       - name: Use Google Analytics key
         run: |
           echo "${{ secrets.GOOGLE_ANALYTICS_KEY }}" > google-analytics-key.json
+      - name: Check Google Analytics Key
+        run: cat google-analytics-key.json
 
       - name: Run Python script to fetch analytics data
         run: python pyscripts/get_analytics_data.py
