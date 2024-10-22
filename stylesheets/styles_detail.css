@@ -35,6 +35,12 @@
   vertical-align: bottom; 
 }
 
+.research-link {
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 10px;
+}
+
 .black-link {
   color: black; 
   text-decoration: none; 
