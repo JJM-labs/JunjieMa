@@ -4,14 +4,9 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 def initialize_analyticsreporting():
-    # 从环境变量获取 Google Analytics 密钥
-    key_json = os.getenv("google-analytics-key.json")
     
-    if not key_json:
-        raise ValueError("环境变量 GOOGLE_ANALYTICS_KEY 未设置")
-    
-    # 将 JSON 字符串转换为字典
-    credentials_info = json.loads(key_json)
+    with open('google-analytics-key.json') as key_file:
+            credentials_info = json.load(key_file)
     
     # 使用服务账号凭证初始化
     credentials = service_account.Credentials.from_service_account_info(credentials_info)
