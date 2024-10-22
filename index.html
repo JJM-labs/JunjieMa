@@ -10,7 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VN909T72NS"></script>
-    <script src="google.tag.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VN909T72NS');
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -189,7 +195,7 @@
             <div style="width: 155px; display: flex; align-items: center;">
               <li> National </li>: 4 
               <a href="#" onclick="showModal('CompModalNational')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:5px">
+                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">
               </a>
               <div id="CompModalNational" class="modal">
                 <div class="modal-content" style="max-width: 650px;">
@@ -228,7 +234,7 @@
             <div style="margin-left:38px">
               Provincial: 4 
               <a href="#" onclick="showModal('CompModalProv')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:5px">
+                <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:2px">
               </a>
               <div id="CompModalProv" class="modal">
                 <div class="modal-content" style="max-width: 650px;">
@@ -271,7 +277,7 @@
             <div style="width: 160px; display: flex; align-items: center;">
               <li> First author </li>: 4 
               <a href="#" onclick="showModal('PaperModal')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:5px">
+                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">
               </a>
               <div id="PaperModal" class="modal">
                 <div class="modal-content" style="max-width:500px;">
@@ -290,7 +296,7 @@
             <div style="margin-left:50px">
               Co-author: 7 
               <a href="#" onclick="showModal('PaperModal')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:5px">
+                <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:2px">
               </a>
               <div id="PaperModal" class="modal">
                 <div class="modal-content" style="max-width:500px;">
