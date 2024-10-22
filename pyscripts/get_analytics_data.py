@@ -5,7 +5,7 @@ from googleapiclient.discovery import build
 
 def initialize_analyticsreporting():
     # 从环境变量获取 Google Analytics 密钥
-    key_json = os.getenv("GOOGLE_ANALYTICS_KEY")
+    key_json = os.getenv("google-analytics-key.json")
     
     if not key_json:
         raise ValueError("环境变量 GOOGLE_ANALYTICS_KEY 未设置")
