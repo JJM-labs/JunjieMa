@@ -1,8 +1,8 @@
 // const data
-const ViewsHome = "19";
-const ViewsResearch = "9";
-const ViewsEducation = "3";
-const lastUpdated = "October 23, 2024";
+const ViewsHome = "26";
+const ViewsResearch = "15";
+const ViewsEducation = "9";
+const lastUpdated = "October 24, 2024";
 
 // function
 function displayLastUpdatedData() {
@@ -18,13 +18,13 @@ function displayLastUpdatedData() {
     dateElement.innerHTML = `${iconUpdate} Last Updated Time: ${lastUpdated}`;
   }
   if (HomeElement) {
-    HomeElement.innerHTML = `${iconViews} Views: ${ViewsHome} (by ${analyticsLink})`;
+    HomeElement.innerHTML = `${iconViews} Pageviews: ${ViewsHome} (by ${analyticsLink})`;
   }
   if (ResearchElement) {
-    ResearchElement.innerHTML = `${iconViews} Views: ${ViewsResearch} (by ${analyticsLink})`;
+    ResearchElement.innerHTML = `${iconViews} Pageviews: ${ViewsResearch} (by ${analyticsLink})`;
   }
   if (EducationElement) {
-    EducationElement.innerHTML = `${iconViews} Views: ${ViewsEducation} (by ${analyticsLink})`;
+    EducationElement.innerHTML = `${iconViews} Pageviews: ${ViewsEducation} (by ${analyticsLink})`;
   }
 }
 
