@@ -12,3 +12,15 @@ window.onclick = function(event) {
         }
     });
 };
+function showModalWithFile(modalId, outTextId, fileName) {
+  showModal(modalId);
+  fetch(fileName)
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById(outTextId).innerHTML = data;
+      })
+      .catch(error => {
+          console.error('Error fetching file:', error);
+          document.getElementById(outTextId).innerText = 'Error loading file.';
+      });
+}
