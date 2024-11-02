@@ -41,11 +41,6 @@
   margin-right: 10px;
 }
 
-.black-link {
-  color: black; 
-  text-decoration: none; 
-}
-
 .underline-link {
   position: relative;
   text-decoration: none;
@@ -65,6 +60,11 @@
 
 .underline-link:hover::after {
   right: 0;
+}
+
+.black-link {
+  color: black; 
+  text-decoration: none; 
 }
 
 .image-centered {
@@ -192,3 +192,16 @@ bi {
   backdrop-filter: blur(5px); 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
+
+@media (prefers-color-scheme: dark) {
+  .black-link {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .modal-content {
+    background-color: black;
+  }
+}
+

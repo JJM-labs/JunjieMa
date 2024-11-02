@@ -13,7 +13,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
   margin:0 0 20px;
 }
 
@@ -31,12 +30,10 @@ h1 {
 }
 
 h2 {
-  color:#393939;
   font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
   font-weight: 500;
 }
 
@@ -50,7 +47,6 @@ a:hover {
 }
 
 a small {
-  color:#777;
   display:block;
   font-size:11px;
   margin-top:-0.3em;
@@ -220,9 +216,12 @@ small {
 
 hr {
   border:0;
-  height:1px;
-  margin:0 0 20px;
-  background:#e5e5e5;
+  margin: 0; 
+  width: 95%;
+  height: 1px;
+  margin-top: 40px; 
+  background-color: black; 
+  border-top: 0.2px solid black; 
 }
 
 footer {
@@ -308,3 +307,18 @@ footer {
     font-size:12pt;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-image: none; 
+    background-color: black;
+  }
+  
+  hr {
+    background-color: #fff; 
+    border-top: 0.2px solid #fff; 
+  }
+}
+
+
