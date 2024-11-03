@@ -316,13 +316,11 @@ footer {
 @media (prefers-color-scheme: dark) {
   body {
     color: #fff;
-    background-image: none; 
-    background-color: black;
+    background-image: none;
+    background-color: #303030;
   }
   
   hr {
     background-color: #fff; 
   }
 }
-
-

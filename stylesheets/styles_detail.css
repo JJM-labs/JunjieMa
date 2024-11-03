@@ -188,7 +188,6 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-
 @media (prefers-color-scheme: dark) {
   .black-link {
     color: white; 
@@ -196,7 +195,7 @@
   }
   
   .modal-content {
-    background-color: black;
+    background-color: #424242;
   }
 }
-
+   
