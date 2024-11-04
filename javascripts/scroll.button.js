@@ -16,7 +16,7 @@ function isOutOfViewport(element) {
 
 // Button Visibility
 function buttonVisibility() {
-    if (isOutOfViewport(firstHeading)) {
+    if (!isMobileOS() && isOutOfViewport(firstHeading)) {
         scrollToTopButton.style.display = "block";
     } else {
         scrollToTopButton.style.display = "none";
@@ -59,13 +59,21 @@ function topButtonPosition() {
 
 // Section Button Position
 function sectionButtonPosition() {
-  const section = document.querySelector('section');
-  if (section) {
-    const sectionRect = section.getBoundingClientRect();
-    let buttonRight = window.innerWidth - (sectionRect.right + 190);
-    buttonRight = Math.max(buttonRight, 0);
-    scrollToSelector.style.right = `${buttonRight}px`;
+  if (!isMobileOS()) {
+    const section = document.querySelector('section');
+    if (section) {
+      const sectionRect = section.getBoundingClientRect();
+      let buttonRight = window.innerWidth - (sectionRect.right + 190);
+      buttonRight = Math.max(buttonRight, 0);
+      scrollToSelector.style.right = `${buttonRight}px`;
+    }
   }
+}
+
+// Detect Mobile OS
+function isMobileOS() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 }
 
 window.addEventListener("scroll", buttonVisibility);
@@ -81,4 +89,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 buttonVisibility();
-
