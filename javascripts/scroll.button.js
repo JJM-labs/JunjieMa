@@ -72,8 +72,8 @@ function sectionButtonPosition() {
 
 // Detect Mobile OS
 function isMobileOS() {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 }
 
 window.addEventListener("scroll", buttonVisibility);
@@ -89,3 +89,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 buttonVisibility();
+
+
