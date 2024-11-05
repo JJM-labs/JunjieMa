@@ -7,14 +7,11 @@ Papers
 <li style="margin-left:20px; ">
 PPP1R14A is associated with immunotherapy resistance in head and neck squamous cell
 </li>
-<span style="margin-left:42px;">
-carcinoma identified by single-cell and bulk RNA-sequencing,&nbsp;<bi>Chinese Medical Sciences</bi>
-</span><br>
-<span style="margin-left:42px;">
-<bi>Journal</bi>, 2024, 39 (2): 111-21.
-</span>
+<p style="margin-left:42px;text-align: left;margin-bottom:10px;">
+carcinoma identified by single-cell and bulk RNA-sequencing, Chinese Medical Sciences Journal, 2024, 39 (2): 111-21.
+</p>
 
-<li style="margin-left:20px;margin-top:10px; ">
+<li style="margin-left:20px; ">
 肾透明细胞癌中拓扑异构酶Ⅱα与免疫浸润的关系及相关基因分析, 中国医科大学学报,
 </li>
 <span style="margin-left:42px;">
