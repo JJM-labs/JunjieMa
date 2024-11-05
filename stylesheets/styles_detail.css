@@ -252,59 +252,53 @@
 }
 
 .loader {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  width: 25%;
+  justify-content: space-between;
 }
 
 .loader div {
-  width: 4px;
-  margin: 2px;
   height: 15px;
-  border-radius: 25px;
-  background: #FE4A49;
+  width: 15px;
+  border-radius: 50%;
+  background: #D91E36; 
 }
 
 .loader div:nth-child(1) {
-  animation: loader 1s ease-in-out infinite 0s;
+  animation: loader 3s linear infinite 0s; 
 }
+
 .loader div:nth-child(2) {
-  animation: loader 1s ease-in-out infinite 0.1s;
+  animation: loader 3s linear infinite 0.15s;
 }
+
 .loader div:nth-child(3) {
-  animation: loader 1s ease-in-out infinite 0.2s;
+  animation: loader 3s linear infinite 0.3s; 
 }
+
 .loader div:nth-child(4) {
-  animation: loader 1s ease-in-out infinite 0.3s;
-}
-.loader div:nth-child(5) {
-  animation: loader 1s ease-in-out infinite 0.4s;
-}
-.loader div:nth-child(6) {
-  animation: loader 1s ease-in-out infinite 0.5s;
-}
-.loader div:nth-child(7) {
-  animation: loader 1s ease-in-out infinite 0.6s;
+  animation: loader 3s linear infinite 0.45s; 
 }
 
 @keyframes loader {
   0% {
-    transform: scaleY(1);
-    background: #FED766;
-  }
+    opacity: 0;
+    transform: scale(0.3);
+    background: #59CD90; }
   25% {
-    background: #009FB7;
-  }
+    opacity: 1;
+    transform: scale(1.8);
+    background: #0072BB; }
   50% {
-    transform: scaleY(2);
-    background: #59CD90;
-  }
+    opacity: 0;
+    transform: scale(0.3);
+    background: #FE4A49; }
   75% {
-    background: #FE4A49;
-  }
+    opacity: 1;
+    transform: scale(1.8);
+    background: #FED766; }
   100% {
-    transform: scaleY(1);
-    background: #D91E36;
+    opacity: 0;
   }
 }
