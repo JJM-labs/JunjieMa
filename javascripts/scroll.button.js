@@ -1,9 +1,6 @@
-// var
 var scrollToTopButton = document.getElementById("scrollToTop");
 var firstHeading = document.querySelector("section h2:first-of-type");
 var scrollToSelector = document.getElementById('scrollToSection');
-
-// Viewport
 function isOutOfViewport(element) {
     var rect = element.getBoundingClientRect();
     return (
@@ -13,25 +10,24 @@ function isOutOfViewport(element) {
         rect.left >= window.innerWidth     
     );
 }
-
-// Button Visibility
 function buttonVisibility() {
     if (isOutOfViewport(firstHeading)) {
         scrollToTopButton.style.display = "block";
     } else {
         scrollToTopButton.style.display = "none";
     }
+    if (window.innerWidth < 1100) {
+        scrollToSelector.style.display = "none";
+    } else {
+        scrollToSelector.style.display = "block";
+    }
 }
-
-// scrollToTop
 function scrollToTop() {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
 }
-
-// scrollToSection
 function scrollToSection(sectionId) {
   var section = document.getElementById(sectionId);
   if (section) {
@@ -45,8 +41,6 @@ function scrollToSection(sectionId) {
     });
   }
 }
-
-// Top Button Position
 function topButtonPosition() {
   const section = document.querySelector('section');
   if (section) {
@@ -56,8 +50,6 @@ function topButtonPosition() {
     scrollToTopButton.style.right = `${buttonRight}px`;
   }
 }
-
-// Section Button Position
 function sectionButtonPosition() {
   const section = document.querySelector('section');
   if (section) {
@@ -67,19 +59,16 @@ function sectionButtonPosition() {
     scrollToSelector.style.right = `${buttonRight}px`;
   }
 }
-
 window.addEventListener("scroll", buttonVisibility);
 scrollToTopButton.addEventListener("click", scrollToTop);
 window.addEventListener('resize', () => {
   topButtonPosition();
   sectionButtonPosition();
+  buttonVisibility();
 });
 document.addEventListener('DOMContentLoaded', () => {
   topButtonPosition();
   sectionButtonPosition();
   buttonVisibility(); 
 });
-
 buttonVisibility();
-
-
