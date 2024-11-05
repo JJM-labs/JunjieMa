@@ -39,5 +39,5 @@ function showModalWithFile(modalId, outTextId, fileName) {
       loading.style.display = 'none';
       document.getElementById(outTextId).innerText = 'Error loading file.';
     });
-  }, 800);
+  }, 600);
 }

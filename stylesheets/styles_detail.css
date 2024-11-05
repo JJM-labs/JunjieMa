@@ -228,40 +228,29 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-color-scheme: dark) {
-  .black-link {
-    color: white; 
-    text-decoration: none; 
-  }
-  
-  .modal-content {
-    background-color: #424242;
-  }
-}
-
 .loading {
+  top: 0;
   left: 0;
   right: 0;
-  top: 20px;
+  bottom: 0;
   z-index: 1;
-  bottom: 20px;
   display: none;
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
 
 .loader {
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 .loader div {
-  width: 5px;
+  width: 6px;
   margin: 2px;
-  height: 15px;
+  height: 20px;
   background: #FE4A49;
   border-radius: 25px;
 }
@@ -270,41 +259,54 @@
   animation: loader 1s ease-in-out infinite 0s;
 }
 .loader div:nth-child(2) {
-  animation: loader 1s ease-in-out infinite 0.1s;
+  animation: loader 1s ease-in-out infinite 0.15s;
 }
 .loader div:nth-child(3) {
-  animation: loader 1s ease-in-out infinite 0.2s;
-}
-.loader div:nth-child(4) {
   animation: loader 1s ease-in-out infinite 0.3s;
 }
+.loader div:nth-child(4) {
+  animation: loader 1s ease-in-out infinite 0.45s;
+}
 .loader div:nth-child(5) {
-  animation: loader 1s ease-in-out infinite 0.4s;
+  animation: loader 1s ease-in-out infinite 0.3s;
 }
 .loader div:nth-child(6) {
-  animation: loader 1s ease-in-out infinite 0.5s;
+  animation: loader 1s ease-in-out infinite 0.15s;
 }
 .loader div:nth-child(7) {
-  animation: loader 1s ease-in-out infinite 0.6s;
+  animation: loader 1s ease-in-out infinite 0s;
 }
 
 @keyframes loader {
   0% {
-    transform: scaleY(1);
     background: #FED766;
+    transform: scaleY(0.5);
   }
   25% {
     background: #009FB7;
+    transform: scaleY(1);
   }
   50% {
-    transform: scaleY(2);
     background: #59CD90;
+    transform: scaleY(2);
   }
   75% {
     background: #FE4A49;
+    transform: scaleY(1);
   }
   100% {
-    transform: scaleY(1);
     background: #D91E36;
+    transform: scaleY(0.5);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .black-link {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .modal-content {
+    background-color: #424242;
   }
 }
