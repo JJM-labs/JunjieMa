@@ -4,6 +4,9 @@
 Papers
 </li></ul>
 
-<li style="margin-left:20px;margin-bottom:20px; ">
-爪蟾驱动蛋白样蛋白2靶蛋白在肝细胞癌的表达及临床预后的意义,&nbsp;<i>解剖学报 </i>, 2023, 54 (4): 434-444.
+<li style="margin-left:20px;">
+爪蟾驱动蛋白样蛋白2靶蛋白在肝细胞癌的表达及临床预后的意义, 解剖学报, 2023, 54 (4):
 </li>
+<span style="margin-left:42px;margin-bottom:30px; ">
+434-444.
+</span>
