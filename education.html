@@ -99,27 +99,27 @@
         
         <div style="display: flex; align-items: center; margin: 0; margin-bottom: 4px;">
           <div style="width: 141px; display: flex; align-items: center;">
-            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/home/qq.txt')" class="image-centered" style="margin-left: 5px;">
+            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/content/home/qq.txt')" class="image-centered" style="margin-left: 5px;">
               <img src="./files/images/logo/qq.webp" width="17" height="16">
               QQ 
             </a>
             <div id="qqModal" class="modal">
               <div class="modal-content">
                 <span class="close" onclick="closeModal('qqModal')">&times;</span>
-                <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div id="loading-qq" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                 <div id="outText-qq"></div>
               </div>
             </div>
           </div>
           <div>
-            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/home/wx.txt')" class="image-centered">
+            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/content/home/wx.txt')" class="image-centered">
               <img src="./files/images/logo/wechat.webp" width="16" height="16" style="margin-right:7.5px">
               Wechat  
             </a>
             <div id="wxModal" class="modal">
               <div class="modal-content">
                 <span class="close" onclick="closeModal('wxModal')"> &times; </span>
-                <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div id="loading-wx" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                 <div id="outText-wx"></div>
               </div>
             </div>
@@ -179,94 +179,29 @@
         
           <li style="padding-left:20px; margin-top:5px; margin-bottom:5px;"> 
             Reward 
-            <a href="javascript:void(0)" onclick="showModal('EduModalRewardBBMU')" class="modal-img">
+            <a href="javascript:void(0)" onclick="showModalWithFile('EduModalRewardBBMU','outText-rewardBBMU','files/content/education/rewardBBMU.txt')" class="modal-img">
               <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:5px">
             </a>
           </li>
           <div id="EduModalRewardBBMU" class="modal">
             <div class="modal-content" style="max-width: 450px;">
               <span class="close" onclick="closeModal('EduModalRewardBBMU')"> &times; </span>
-              <p style="font-size:24px; margin-bottom:5px; margin-top:1px; text-align:justify;">
-                Reward 
-              </p>
-              <ul style="font-size:20px; line-height:25px; text-align: justify;margin-bottom:20px;">
-              <li> 2020/2021 &nbsp; The First Prize Scholarship. </li>
-              <li> 2021/2022 &nbsp; The First Prize Scholarship.</li>
-              <li> 2022/2023 &nbsp; The Grand Prize Scholarship.</li>
-              <li> 2023/2024 &nbsp; The Grand Prize Scholarship.</li>
-              </ul>
+              <div id="loading-rewardBBMU" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+              <div id="outText-rewardBBMU"></div>
             </div>
           </div>
         
           <li style="padding-left:20px;"> 
             Competitions 
-            <a href="javascript:void(0)" onclick="showModal('EduModalCompBBMU')" class="modal-img">
+            <a href="javascript:void(0)" onclick="showModalWithFile('EduModalCompBBMU','outText-compBBMU','files/content/education/compBBMU.txt')" class="modal-img">
               <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:5px">
             </a>
           </li>
           <div id="EduModalCompBBMU" class="modal">
             <div class="modal-content" style="max-width: 680px;">
               <span class="close" onclick="closeModal('EduModalCompBBMU')"> &times; </span>
-              <p style="font-size:24px; margin-bottom:10px; margin-top:10px; text-align:justify;">
-                National Competitions 
-              </p>
-              <ul style="font-size:18px; line-height:15px; text-align: justify;">
-                <li> 
-                  2024-08 &nbsp; 
-                  <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
-                    Chinese Collegiate Computing Competition 
-                  </a> &nbsp; 
-                  Third Prize 
-                </li> <br>
-                <li>2024-03 &nbsp; 
-                  <a href="http://www.ncmishare.com/web" target="_blank">
-                    Population Health "Sharing Cup" Competition 
-                  </a> &nbsp; 
-                  Third Prize
-                </li><br>
-                <li>2023-08 &nbsp; 
-                  <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
-                    Chinese Collegiate Computing Competition 
-                  </a> &nbsp; 
-                  Second Prize 
-                </li> <br>
-                <li> 2023-08 &nbsp; 
-                  <a href="http://sentbase.com/cn5mrp" target="_blank">
-                    Chinese Collegiate 5-Minute Research Presentation 
-                  </a> &nbsp; 
-                  First Prize
-                </li> <br>
-              </ul>
-              <p style="font-size:24px; margin-bottom:10px; margin-top:10px;text-align:justify;">
-                Provincial Competitions 
-              </p>
-              <ul style="font-size:18px; line-height:15px; text-align: justify;margin-bottom:20px;">
-                <li>
-                  2023-08 &nbsp; 
-                  <a href="http://tjjmds.ai-learning.net" target="_blank">
-                    China Collegiate Statistical Modeling Competition 
-                  </a> &nbsp; 
-                  Third Prize 
-                </li> <br>
-                <li> 2023-08 &nbsp; 
-                  <a href="http://www.ah-qbcc.cn" target="_blank">
-                    Anhui College Students Quality Culture Competition 
-                  </a> &nbsp; 
-                  First Prize 
-                </li> <br>
-                <li> 2022-10 &nbsp; 
-                  <a href="https://cy.ncss.cn" target="_blank">
-                    China College Students "Internet+" Competition 
-                  </a> &nbsp; 
-                  Third Prize 
-                </li> <br>
-                <li> 2022-07 &nbsp; 
-                  <a href="https://www.tiaozhanbei.net" target="_blank">
-                    "Challenge Cup" National College Student Competition 
-                  </a> &nbsp; 
-                  Third Prize
-                </li>
-              </ul>
+              <div id="loading-compBBMU" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+              <div id="outText-compBBMU"></div>
             </div>
           </div>
         </p>
@@ -285,31 +220,29 @@
           
           <li style="padding-left:21px; margin-top:5px; margin-bottom:5px;"> 
             Reward 
-            <a href="javascript:void(0)" onclick="showModal('EduModalRewardCSU')" class="modal-img">
+            <a href="javascript:void(0)" onclick="showModalWithFile('EduModalRewardCSU','outText-rewardCSU','files/content/education/rewardCSU.txt')" class="modal-img">
               <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:5px">
             </a>
           </li>
           <div id="EduModalRewardCSU" class="modal">
             <div class="modal-content" style="max-width: 400px;">
               <span class="close" onclick="closeModal('EduModalRewardCSU')"> &times; </span>
-              <p style="font-size:24px; margin-bottom:5px; margin-top:1px;">
-                None yet 
-              </p>
+              <div id="loading-rewardCSU" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+              <div id="outText-rewardCSU"></div>
             </div>
           </div>
         
           <li style="padding-left:21px;"> 
             Competitions 
-            <a href="javascript:void(0)" onclick="showModal('EduModalCompCSU')" class="modal-img">
+            <a href="javascript:void(0)" onclick="showModalWithFile('EduModalCompCSU','outText-compCSU','files/content/education/compCSU.txt')" class="modal-img">
               <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:5px">
             </a>
           </li>
           <div id="EduModalCompCSU" class="modal">
             <div class="modal-content" style="max-width: 400px;">
               <span class="close" onclick="closeModal('EduModalCompCSU')"> &times; </span>
-              <p style="font-size:24px; margin-bottom:10px; margin-top:10px;">
-                None yet
-              </p>
+              <div id="loading-compCSU" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+              <div id="outText-compCSU"></div>
             </div>
           </div>
         </p> 

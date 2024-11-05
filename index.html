@@ -99,27 +99,27 @@
         
         <div style="display: flex; align-items: center; margin: 0; margin-bottom: 4px;">
           <div style="width: 141px; display: flex; align-items: center;">
-            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/home/qq.txt')" class="image-centered" style="margin-left: 5px;">
+            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/content/home/qq.txt')" class="image-centered" style="margin-left: 5px;">
               <img src="./files/images/logo/qq.webp" width="17" height="16">
               QQ 
             </a>
             <div id="qqModal" class="modal">
               <div class="modal-content">
                 <span class="close" onclick="closeModal('qqModal')">&times;</span>
-                <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div id="loading-qq" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                 <div id="outText-qq"></div>
               </div>
             </div>
           </div>
           <div>
-            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/home/wx.txt')" class="image-centered">
+            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/content/home/wx.txt')" class="image-centered">
               <img src="./files/images/logo/wechat.webp" width="16" height="16" style="margin-right:7.5px">
               Wechat  
             </a>
             <div id="wxModal" class="modal">
               <div class="modal-content">
                 <span class="close" onclick="closeModal('wxModal')"> &times; </span>
-                <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div id="loading-wx" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                 <div id="outText-wx"></div>
               </div>
             </div>
@@ -179,26 +179,26 @@
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
             <div style="width: 155px; display: flex; align-items: center;">
               <li> National </li>: 4
-              <a href="javascript:void(0)" onclick="showModalWithFile('compModalNational','outText-compNational','files/home/compNational.txt')" class="modal-img">
+              <a href="javascript:void(0)" onclick="showModalWithFile('compModalNational','outText-compNational','files/content/home/compNational.txt')" class="modal-img">
                 <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">  
               </a>
               <div id="compModalNational" class="modal">
                 <div class="modal-content" style="max-width: 650px;">
                   <span class="close" onclick="closeModal('compModalNational')">&times;</span>
-                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="loading-compNational" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-compNational"></div>
                 </div>
               </div>
             </div>
             <div style="margin-left:38px">
               Provincial: 4 
-              <a href="javascript:void(0)" onclick="showModalWithFile('compModalProv','outText-compProv','files/home/compProv.txt')" class="modal-img">
+              <a href="javascript:void(0)" onclick="showModalWithFile('compModalProv','outText-compProv','files/content/home/compProv.txt')" class="modal-img">
                 <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:2px">
               </a>
               <div id="compModalProv" class="modal">
                 <div class="modal-content" style="max-width: 650px;">
                   <span class="close" onclick="closeModal('compModalProv')"> &times; </span>
-                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="loading-compProv" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-compProv"></div>
                 </div>
               </div>
@@ -209,20 +209,20 @@
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
             <div style="width: 160px; display: flex; align-items: center;">
               <li> First author </li>: 4 
-              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/home/papers.txt')" class="modal-img">
+              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/content/home/papers.txt')" class="modal-img">
                 <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">  
               </a>
               <div id="PaperModal" class="modal">
                 <div class="modal-content" style="max-width:500px;">
                   <span class="close" onclick="closeModal('PaperModal')"> &times; </span>
-                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="loading-papers" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-papers"></div>
                 </div>
               </div>
             </div>
             <div style="margin-left:50px">
               Co-author: 7 
-              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/home/papers.txt')" class="modal-img">
+              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/content/home/papers.txt')" class="modal-img">
                 <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">  
               </a>
             </div>
@@ -234,24 +234,24 @@
               <li> R </li> 
             </div>
             <div>
-              <a href="javascript:void(0)" onclick="showModalWithFile('skillModalBioinfo','outText-skillBioinfo','files/home/skillBioinfo.txt')">
+              <a href="javascript:void(0)" onclick="showModalWithFile('skillModalBioinfo','outText-skillBioinfo','files/content/home/skillBioinfo.txt')">
                 Bioinformatics,
               </a>
               <div id="skillModalBioinfo" class="modal">
                 <div class="modal-content" style="max-width: 800px;">
                   <span class="close" onclick="closeModal('skillModalBioinfo')"> &times; </span>
-                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="loading-skillBioinfo" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-skillBioinfo"></div>
                 </div>
               </div>
               Statistical Analysis, <br>
-              <a href="javascript:void(0)" onclick="showModalWithFile('skillModalML','outText-skillML','files/home/skillML.txt')">
+              <a href="javascript:void(0)" onclick="showModalWithFile('skillModalML','outText-skillML','files/content/home/skillML.txt')">
                 Machine Learning,
               </a>
               <div id="skillModalML" class="modal">
                 <div class="modal-content" style="max-width: 700px;">
                   <span class="close" onclick="closeModal('skillModalML')"> &times; </span>
-                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="loading-skillML" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-skillML"></div>
                 </div>
               </div>
