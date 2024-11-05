@@ -1,6 +1,6 @@
 <p style="font-size:24px; margin-top:20px;">
      More information: 
-     <a href="./research.html">
+     <a href="https://junjiema.cn/research">
           Research 
      </a>
      page
