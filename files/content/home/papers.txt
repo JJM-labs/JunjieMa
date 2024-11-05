@@ -1,6 +1,6 @@
 <p style="font-size:24px; margin-top:20px;">
      More information: 
-     <a href="https://jjm-labs.github.io/JunjieMa/research.html">
+     <a href="./research.html">
           Research 
      </a>
      page
