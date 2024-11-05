@@ -7,12 +7,12 @@ Papers
 <li style="margin-left:20px; ">
 Integrated machine learning and deep learning for predicting diabetic nephropathy 
 </li>
-<p style="margin-left:42px;">
+<p style="margin-left:42px;margin-bottom:15px;">
 model construction, validation, and interpretability,&nbsp;<bi>Endocrine</bi>, 2024, 85 (2): 615-625.
 </p>
 
 
-<ul style="font-size:20px; margin-top:15px;margin-bottom:5px;"><li>
+<ul style="font-size:20px; margin-bottom:5px;"><li>
 Software Copyright
 </li></ul>
 
