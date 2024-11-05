@@ -27,6 +27,7 @@ function showModalWithFile(modalId, outTextId, fileName) {
   const loading = document.getElementById(loadingId);
   showModal(modalId);
   loading.style.display = 'flex';
+  setTimeout(() => {
   fetch(fileName)
     .then(response => response.text())
     .then(data => {
@@ -38,4 +39,5 @@ function showModalWithFile(modalId, outTextId, fileName) {
       loading.style.display = 'none';
       document.getElementById(outTextId).innerText = 'Error loading file.';
     });
+  }, 800);
 }
