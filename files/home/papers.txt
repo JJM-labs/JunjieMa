@@ -1,0 +1,8 @@
+<p style="font-size:24px; margin-top:20px;">
+     More information: 
+     <a href="https://jjm-labs.github.io/JunjieMa/research.html">
+          Research 
+     </a>
+     page
+</p>
+<img src="files/images/home/papers.webp" style="margin-top:20px;">

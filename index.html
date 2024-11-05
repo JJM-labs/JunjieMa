@@ -99,38 +99,28 @@
         
         <div style="display: flex; align-items: center; margin: 0; margin-bottom: 4px;">
           <div style="width: 141px; display: flex; align-items: center;">
-            <a href="javascript:void(0)" onclick="showModal('qqModal')" class="image-centered" style="margin-left: 5px;">
+            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/home/qq.txt')" class="image-centered" style="margin-left: 5px;">
               <img src="./files/images/logo/qq.webp" width="17" height="16">
               QQ 
             </a>
             <div id="qqModal" class="modal">
               <div class="modal-content">
-                <span class="close" onclick="closeModal('qqModal')"> &times; </span>
-                <p style="font-size: 20px; margin-bottom: 5px; color: #86accd;">
-                  Use QQ to scan the QR code 
-                </p>
-                <p style="font-size: 20px; margin-bottom: 15px; color: #86accd;">
-                  QQ number: 2939542961 (ID: mjj1428)
-                </p>
-                <img src="./files/images/logo/qq-qrcode.webp">
+                <span class="close" onclick="closeModal('qqModal')">&times;</span>
+                <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div id="outText-qq"></div>
               </div>
             </div>
           </div>
           <div>
-            <a href="javascript:void(0)" onclick="showModal('wxModal')" class="image-centered">
+            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/home/wx.txt')" class="image-centered">
               <img src="./files/images/logo/wechat.webp" width="16" height="16" style="margin-right:7.5px">
-              Wechat 
+              Wechat  
             </a>
             <div id="wxModal" class="modal">
               <div class="modal-content">
                 <span class="close" onclick="closeModal('wxModal')"> &times; </span>
-                <p style="font-size: 20px; margin-bottom: 5px; color: #86accd;">
-                  Use WeChat to scan the QR code 
-                </p>
-                <p style="font-size: 20px; margin-bottom: 15px; color: #86accd;">
-                  WeChat ID: mjj1428
-                </p>
-                <img src="./files/images/logo/wechat-qrcode.webp">
+                <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                <div id="outText-wx"></div>
               </div>
             </div>
           </div>
@@ -188,80 +178,28 @@
           <p class="index-title"> Competitions </p>
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
             <div style="width: 155px; display: flex; align-items: center;">
-              <li> National </li>: 4 
-              <a href="javascript:void(0)" onclick="showModal('CompModalNational')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">
+              <li> National </li>: 4
+              <a href="javascript:void(0)" onclick="showModalWithFile('compModalNational','outText-compNational','files/home/compNational.txt')" class="modal-img">
+                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">  
               </a>
-              <div id="CompModalNational" class="modal">
+              <div id="compModalNational" class="modal">
                 <div class="modal-content" style="max-width: 650px;">
-                  <span class="close" onclick="closeModal('CompModalNational')">&times;</span>
-                  <p style="font-size:24px; margin-bottom:10px; margin-top:10px;">
-                    National Competitions 
-                  </p>
-                  <p style="font-size:18px; line-height:40px;">
-                    2024-08 &nbsp; 
-                    <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
-                      Chinese Collegiate Computing Competition 
-                    </a> &nbsp; 
-                    Third Prize 
-                    <br>
-                    2024-03 &nbsp; 
-                    <a href="http://www.ncmishare.com/web" target="_blank">
-                      Population Health "Sharing Cup" Competition 
-                    </a> &nbsp; 
-                    Third Prize 
-                    <br>
-                    2023-08 &nbsp; 
-                    <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
-                      Chinese Collegiate Computing Competition 
-                    </a> &nbsp; 
-                    Second Prize 
-                    <br>
-                    2023-08 &nbsp; 
-                    <a href="http://sentbase.com/cn5mrp" target="_blank">
-                      Chinese Collegiate 5-Minute Research Presentation 
-                    </a> &nbsp; 
-                    First Prize
-                  </p>
+                  <span class="close" onclick="closeModal('compModalNational')">&times;</span>
+                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-compNational"></div>
                 </div>
               </div>
             </div>
             <div style="margin-left:38px">
               Provincial: 4 
-              <a href="javascript:void(0)" onclick="showModal('CompModalProv')" class="modal-img">
+              <a href="javascript:void(0)" onclick="showModalWithFile('compModalProv','outText-compProv','files/home/compProv.txt')" class="modal-img">
                 <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:2px">
               </a>
-              <div id="CompModalProv" class="modal">
+              <div id="compModalProv" class="modal">
                 <div class="modal-content" style="max-width: 650px;">
-                  <span class="close" onclick="closeModal('CompModalProv')"> &times; </span>
-                  <p style="font-size:24px; margin-bottom:10px; margin-top:10px;">
-                    Provincial Competitions 
-                  </p>
-                  <p style="font-size:18px; line-height:40px;">
-                    2023-08 &nbsp; 
-                    <a href="http://tjjmds.ai-learning.net" target="_blank">
-                      China Collegiate Statistical Modeling Competition 
-                    </a> &nbsp; 
-                    Third Prize 
-                    <br>
-                    2023-08 &nbsp; 
-                    <a href="http://www.ah-qbcc.cn" target="_blank">
-                      Anhui College Students Quality Culture Competition 
-                    </a> &nbsp; 
-                    First Prize 
-                    <br>
-                    2022-10 &nbsp; 
-                    <a href="https://cy.ncss.cn" target="_blank">
-                      China College Students "Internet+" Competition 
-                    </a> &nbsp; 
-                    Third Prize 
-                    <br>
-                    2022-07 &nbsp; 
-                    <a href="https://www.tiaozhanbei.net" target="_blank">
-                      "Challenge Cup" National College Student Competition 
-                    </a> &nbsp; 
-                    Third Prize
-                  </p>
+                  <span class="close" onclick="closeModal('compModalProv')"> &times; </span>
+                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-compProv"></div>
                 </div>
               </div>
             </div>
@@ -271,41 +209,22 @@
           <div style="display: flex; align-items: center; margin: 0; margin-bottom: 10px;">
             <div style="width: 160px; display: flex; align-items: center;">
               <li> First author </li>: 4 
-              <a href="javascript:void(0)" onclick="showModal('PaperModal')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">
+              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/home/papers.txt')" class="modal-img">
+                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">  
               </a>
               <div id="PaperModal" class="modal">
                 <div class="modal-content" style="max-width:500px;">
                   <span class="close" onclick="closeModal('PaperModal')"> &times; </span>
-                  <p style="font-size:24px; margin-top:20px;">
-                    More information: 
-                    <a href="https://jjm-labs.github.io/JunjieMa/research.html">
-                      Research 
-                    </a>
-                    page
-                  </p>
-                  <img src="files/images/index/papers.webp" style="margin-top:20px;">
+                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-papers"></div>
                 </div>
               </div>
             </div>
             <div style="margin-left:50px">
               Co-author: 7 
-              <a href="javascript:void(0)" onclick="showModal('PaperModal')" class="modal-img">
-                <img src="./files/images/logo/view.webp" width="16.5" height="16" style="vertical-align:-2.5px; margin-left:2px">
+              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/home/papers.txt')" class="modal-img">
+                <img src="./files/images/logo/view.webp" width="17" height="16" style="vertical-align:-2.5px; margin-left:6px">  
               </a>
-              <div id="PaperModal" class="modal">
-                <div class="modal-content" style="max-width:500px;">
-                  <span class="close" onclick="closeModal('PaperModal')"> &times; </span>
-                  <p style="font-size:24px; margin-top:20px;">
-                    More information: 
-                    <a href="https://jjm-labs.github.io/JunjieMa/research.html">
-                      Research 
-                    </a>
-                    page
-                  </p>
-                  <img src="files/images/index/papers.webp" style="margin-top:20px;">
-                </div>
-              </div>
             </div>
           </div>
           
@@ -315,55 +234,25 @@
               <li> R </li> 
             </div>
             <div>
-              <a href="javascript:void(0)" onclick="showModal('SkillModalBioinfo')">
-              Bioinformatics,
-              </a> 
-              <div id="SkillModalBioinfo" class="modal">
+              <a href="javascript:void(0)" onclick="showModalWithFile('skillModalBioinfo','outText-skillBioinfo','files/home/skillBioinfo.txt')">
+                Bioinformatics,
+              </a>
+              <div id="skillModalBioinfo" class="modal">
                 <div class="modal-content" style="max-width: 800px;">
-                  <span class="close" onclick="closeModal('SkillModalBioinfo')"> &times; </span>
-                  <p style="font-size:24px; margin-bottom:20px; margin-top:5px;">
-                    Bioinformatics analysis skills 
-                  </p>
-                  <p class="index-text-indent" style="margin-bottom:10px; margin-left:2px;">
-                  I am able to independently utilize a variety of methods and processes for bioinformatics analysis, including: multi-omics, single-cell and spatial transcriptomics analysis.
-                  </p>
-                  <ul>
-                    <p class="index-text-indent">
-                      In addition, I have systematically collected and analyzed the following data sets:
-                    </p>
-                    <p class="index-text-indent" style="text-indent:3em;">
-                      1. Multi-omics data
-                    </p>
-                    <ul style="padding-left:40px; font-size:16px;">
-                      <li style="padding-left:32px;"> Single-cell data for 26 tumors (800,000+ cells) </li>
-                      <li style="padding-left:32px;"> Proteomics data for 13 tumors (3,000+ samples) </li>
-                      <li style="padding-left:32px;"> Transcriptome, methylation, CNV, and SNV data for 33 tumors (each with 11,000+ samples) </li>
-                    </ul>
-                    <p class="index-text-indent" style="margin-top:10px; text-indent:3em;">
-                      2. Immunotherapy data
-                    </p>
-                    <ul style="padding-left:40px; font-size:16px;">
-                      <li style="padding-left:32px;"> 17 CRISPR/Cas9 datasets </li>
-                      <li style="padding-left:32px;"> 7 Single-cell immunotherapy cohorts </li>
-                      <li style="padding-left:32px;"> 27 Bulk immunotherapy datasets (1,661 samples) </li>
-                      <li style="padding-left:32px;"> 2 Spatial transcriptome immunotherapy datasets </li>
-                    </ul>
-                  </ul>
-                  <img src="files/images/index/bioinformatics.webp" style="margin-top:30px;">
+                  <span class="close" onclick="closeModal('skillModalBioinfo')"> &times; </span>
+                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-skillBioinfo"></div>
                 </div>
               </div>
-              Statistical Analysis, <br> 
-              <a href="javascript:void(0)" onclick="showModal('SkillModalML')">
-              Machine Learning,
-              </a> 
-              <div id="SkillModalML" class="modal">
+              Statistical Analysis, <br>
+              <a href="javascript:void(0)" onclick="showModalWithFile('skillModalML','outText-skillML','files/home/skillML.txt')">
+                Machine Learning,
+              </a>
+              <div id="skillModalML" class="modal">
                 <div class="modal-content" style="max-width: 700px;">
-                  <span class="close" onclick="closeModal('SkillModalML')"> &times; </span>
-                  <p style="font-size:24px; margin-bottom:20px; margin-top:5px;"> Machine learning analysis skills </p>
-                  <p class="index-text-indent" style="margin-bottom:30px;">
-                    I am able to independently perform machine learning analysis, including data cleaning, feature screening, model construction and evaluation, model interpretability, and constructing online predictive shiny web pages based on machine learning model.
-                  </p>
-                  <img src="files/images/index/ml.webp">
+                  <span class="close" onclick="closeModal('skillModalML')"> &times; </span>
+                  <div id="loading" style="display: none;"><div id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-skillML"></div>
                 </div>
               </div>
               Research Plotting. 
