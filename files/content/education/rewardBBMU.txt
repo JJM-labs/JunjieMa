@@ -1,5 +1,5 @@
 <p style="font-size:24px; margin-bottom:5px; margin-top:1px; text-align:justify;">
-     Reward 
+     Scholarship 
 </p>
 <ul style="font-size:20px; line-height:25px; text-align: justify;margin-bottom:20px;">
       <li> 2020/2021 &nbsp; The First Prize Scholarship. </li>
