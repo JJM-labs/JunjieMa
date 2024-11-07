@@ -310,4 +310,12 @@
   .modal-content {
     background-color: #424242;
   }
+  
+  #scrollToTop{
+    background: #424242;
+  }
+  
+  #scrollToSection button {
+    background: #424242;
+  }
 }
