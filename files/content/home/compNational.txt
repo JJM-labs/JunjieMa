@@ -1,28 +1,31 @@
-<p style="font-size:24px; margin-bottom:10px; margin-top:10px;">
+<p style="font-size:24px; margin-bottom:20px; margin-top:0px;text-align:center;">
      National Competitions 
 </p>
-<p style="font-size:18px; line-height:40px;">
-     2024-08 &nbsp; 
-     <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
-          Chinese Collegiate Computing Competition 
-      </a> &nbsp; 
-      Third Prize 
-       <br>
-       2024-03 &nbsp; 
-       <a href="http://www.ncmishare.com/web" target="_blank">
-            Population Health "Sharing Cup" Competition 
-        </a> &nbsp; 
-        Third Prize 
-        <br>
-        2023-08 &nbsp; 
-        <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
-            Chinese Collegiate Computing Competition 
-        </a> &nbsp; 
-        Second Prize 
-        <br>
-        2023-08 &nbsp; 
-        <a href="http://sentbase.com/cn5mrp" target="_blank">
-            Chinese Collegiate 5-Minute Research Presentation 
-         </a> &nbsp; 
-         First Prize
-</p>
+
+<ul style="font-size:18px; line-height:20px; text-align: justify;margin-bottom:20px;">
+      <li> 
+          2024-08 &nbsp; 
+          <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
+               Chinese Collegiate Computing Competition 
+          </a> &nbsp; 
+          Third Prize 
+      </li> <br>
+      <li>2024-03 &nbsp; 
+          <a href="http://www.ncmishare.com/web" target="_blank">
+               Population Health "Sharing Cup" Competition 
+          </a> &nbsp; 
+          Third Prize
+      </li><br>
+      <li>2023-08 &nbsp; 
+          <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
+               Chinese Collegiate Computing Competition 
+          </a> &nbsp; 
+          Second Prize 
+      </li> <br>
+      <li> 2023-08 &nbsp; 
+          <a href="http://sentbase.com/cn5mrp" target="_blank">
+               Chinese Collegiate 5-Minute Research Presentation 
+          </a> &nbsp; 
+          First Prize
+       </li>
+</ul>

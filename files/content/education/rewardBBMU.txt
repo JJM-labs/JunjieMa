@@ -1,7 +1,8 @@
-<p style="font-size:24px; margin-bottom:5px; margin-top:1px; text-align:justify;">
+<p style="font-size:24px; margin-bottom:10px; margin-top:0px; text-align:justify;">
      Scholarship 
 </p>
-<ul style="font-size:20px; line-height:25px; text-align: justify;margin-bottom:20px;">
+
+<ul style="font-size:20px; line-height:25px; text-align: justify;margin-bottom:10px;">
       <li> 2020/2021 &nbsp; The First Prize Scholarship. </li>
       <li> 2021/2022 &nbsp; The First Prize Scholarship.</li>
       <li> 2022/2023 &nbsp; The Grand Prize Scholarship.</li>

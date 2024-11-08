@@ -4,11 +4,8 @@
 Papers
 </li></ul>
 
-<li style="margin-left:20px; ">
-Integrated machine learning and deep learning for predicting diabetic nephropathy 
-</li>
-<p style="margin-left:42px;margin-bottom:15px;">
-model construction, validation, and interpretability,&nbsp;<bi>Endocrine</bi>, 2024, 85 (2): 615-625.
+<p style="margin-left:22px;margin-bottom:15px;">
+Integrated machine learning and deep learning for predicting diabetic nephropathy model construction, validation, and interpretability, <bi>Endocrine</bi>, 2024, 85 (2): 615-625.
 </p>
 
 
@@ -16,8 +13,8 @@ model construction, validation, and interpretability,&nbsp;<bi>Endocrine</bi>, 2
 Software Copyright
 </li></ul>
 
-<li style="margin-left:20px; margin-bottom:30px;">
+<p style="margin-left:22px; margin-bottom:20px;">
 Diabetes complicated with nephropathy risk prediction platform (2024SR0725076)
-</li>
+</p>
 
 

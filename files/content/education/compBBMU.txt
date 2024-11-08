@@ -1,7 +1,7 @@
-<p style="font-size:24px; margin-bottom:10px; margin-top:10px; text-align:justify;">
+<p style="font-size:24px; margin-bottom:15px; margin-top:0px; text-align:justify;">
      National Competitions 
 </p>
-<ul style="font-size:18px; line-height:15px; text-align: justify;">
+<ul style="font-size:18px; line-height:15px; text-align: justify; margin-left:2px;">
       <li> 
           2024-08 &nbsp; 
           <a href="https://jsjds.blcu.edu.cn/index.htm" target="_blank">
@@ -26,12 +26,13 @@
                Chinese Collegiate 5-Minute Research Presentation 
           </a> &nbsp; 
           First Prize
-       </li> <br>
+       </li>
 </ul>
-<p style="font-size:24px; margin-bottom:10px; margin-top:10px;text-align:justify;">
+
+<p style="font-size:24px; margin-bottom:15px; margin-top:30px;text-align:justify;">
      Provincial Competitions 
 </p>
-<ul style="font-size:18px; line-height:15px; text-align: justify;margin-bottom:20px;">
+<ul style="font-size:18px; line-height:15px; text-align: justify;margin-bottom:20px; margin-left:2px;">
       <li>
           2023-08 &nbsp; 
           <a href="http://tjjmds.ai-learning.net" target="_blank">
