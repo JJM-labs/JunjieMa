@@ -8,11 +8,11 @@ First author Papers (&#x1F449;<a href="https://junjiema.cn/research">Research</a
 
 <div style="font-size:16px;margin-left:21px;margin-bottom:10px;padding-left:1.55em;text-indent: -1.55em; ">
 <p style="margin-bottom:10px;">
-[1] Integrated machine learning and deep learning for predicting diabetic nephropathy model construction, validation, and interpretability, <bi>Endocrine</bi>, 2024, 85 (2): 615-625.
+[1] Integrated machine learning and deep learning for predicting diabetic nephropathy model construction, validation, and interpretability, <i>Endocrine</i>, 2024, 85 (2): 615-625.
 </p>
 
 <p style="margin-bottom:10px;">
-[2] PPP1R14A is associated with immunotherapy resistance in head and neck squamous cell carcinoma identified by single-cell and bulk RNA-sequencing, <bi>Chinese Medical Sciences Journal</bi>, 2024, 39 (2): 111-21.
+[2] PPP1R14A is associated with immunotherapy resistance in head and neck squamous cell carcinoma identified by single-cell and bulk RNA-sequencing, <i>Chinese Medical Sciences Journal</i>, 2024, 39 (2): 111-21.
 </p>
 
 <p style="margin-bottom:10px; ">

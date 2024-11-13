@@ -8,19 +8,19 @@ Co-author Papers (&#x1F449;<a href="https://junjiema.cn/research">Research</a> p
 
 <div style="font-size:16px;margin-left:21px;margin-bottom:5px;padding-left:1.55em;text-indent: -1.55em; ">
 <p style="margin-bottom:5px;">
-[1] Vasculogenic mimicry-associated novel gene signature predicted prognosis and response to immunotherapy in lung adenocarcinoma, <bi>Pathology Research and Practice</bi>, 2024, 253: 155048.
+[1] Vasculogenic mimicry-associated novel gene signature predicted prognosis and response to immunotherapy in lung adenocarcinoma, <i>Pathology Research and Practice</i>, 2024, 253: 155048.
 </p>
 
 <p style="margin-bottom:5px;">
-[2] Analysis of correlation between high expression of nucleoporin 85 (NUP85) and immune cell infiltration in hepatocellular carcinoma, <bi>Chinese journal of cellular and molecular immunology</bi>, 2024, 340 (6): 508-519.
+[2] Analysis of correlation between high expression of nucleoporin 85 (NUP85) and immune cell infiltration in hepatocellular carcinoma, <i>Chinese journal of cellular and molecular immunology</i>, 2024, 340 (6): 508-519.
 </p>
 
 <p style="margin-bottom:5px; ">
-[3] Screen of key characteristic genes of nasopharyngeal carcinoma (NPC) base on machine learning and analysis of their correlation with immune cells, <bi>Chinese journal of cellular and molecular immunology</bi>, 2023, 39 (11): 988-995.
+[3] Screen of key characteristic genes of nasopharyngeal carcinoma (NPC) base on machine learning and analysis of their correlation with immune cells, <i>Chinese journal of cellular and molecular immunology</i>, 2023, 39 (11): 988-995.
 </p>
 
 <p style="margin-bottom:5px;">
-[4] Topoisomerase Ⅱα Gene as a Marker for Prognostic Prediction of Hepatocellular Carcinoma: A Bioinformatics Analysis, <bi>Chinese medical sciences journal</bi>, 2022, 37 (4): 331-339.
+[4] Topoisomerase Ⅱα Gene as a Marker for Prognostic Prediction of Hepatocellular Carcinoma: A Bioinformatics Analysis, <i>Chinese medical sciences journal</i>, 2022, 37 (4): 331-339.
 </p>
 
 <p style="margin-bottom:5px;">
