@@ -178,12 +178,12 @@
           <p class="index-title"> Competitions </p>
           <div style="display:flex;align-items:center;margin:0;margin-bottom:10px;">
             <div style="width:155px;display:flex;align-items:center;">
-              <li> National </li>: 4&nbsp;
+              <li>National</li>: 4&nbsp;
               <a href="javascript:void(0)" onclick="showModalWithFile('compModalNational','outText-compNational','files/content/home/compNational.txt')" class="modal-img">
                 <img src="files/images/logo/view.webp" width="17" height="15" style="vertical-align:-2.5px;">  
               </a>
               <div id="compModalNational" class="modal">
-                <div class="modal-content" style="max-width:625px;text-align:justify;">
+                <div class="modal-content" style="max-width:640px;text-align:justify;">
                   <span class="close" onclick="closeModal('compModalNational')">&times;</span>
                   <div id="loading-compNational" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-compNational"></div>
@@ -196,7 +196,7 @@
                 <img src="files/images/logo/view.webp" width="16.5" height="15" style="vertical-align:-2.5px;">
               </a>
               <div id="compModalProv" class="modal">
-                <div class="modal-content" style="max-width:655px;text-align:justify;">
+                <div class="modal-content" style="max-width:675px;text-align:justify;">
                   <span class="close" onclick="closeModal('compModalProv')"> &times;</span>
                   <div id="loading-compProv" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
                   <div id="outText-compProv"></div>
@@ -208,23 +208,30 @@
           <p class="index-title"> Papers </p>
           <div style="display:flex;align-items:center;margin:0;margin-bottom:10px;">
             <div style="width:160px;display:flex;align-items:center;">
-              <li> First author </li>: 4&nbsp;
-              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/content/home/papers.txt')" class="modal-img">
+              <li>First author</li>: 4&nbsp;
+              <a href="javascript:void(0)" onclick="showModalWithFile('firstPaperModal','outText-firstPapers','files/content/home/1stPapers.txt')" class="modal-img">
                 <img src="files/images/logo/view.webp" width="17" height="15" style="vertical-align:-2.5px;">  
               </a>
-              <div id="PaperModal" class="modal">
-                <div class="modal-content" style="max-width:500px;">
-                  <span class="close" onclick="closeModal('PaperModal')"> &times;</span>
-                  <div id="loading-papers" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
-                  <div id="outText-papers"></div>
+              <div id="firstPaperModal" class="modal">
+                <div class="modal-content" style="max-width:700px;text-align:justify;">
+                  <span class="close" onclick="closeModal('firstPaperModal')">&times;</span>
+                  <div id="loading-firstPapers" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-firstPapers"></div>
                 </div>
               </div>
             </div>
             <div style="margin-left:50px">
               Co-author: 7
-              <a href="javascript:void(0)" onclick="showModalWithFile('PaperModal','outText-papers','files/content/home/papers.txt')" class="modal-img">
+              <a href="javascript:void(0)" onclick="showModalWithFile('coPaperModal','outText-coPapers','files/content/home/coPapers.txt')" class="modal-img">
                 <img src="files/images/logo/view.webp" width="16.5" height="15" style="vertical-align:-2.5px;">  
               </a>
+              <div id="coPaperModal" class="modal">
+                <div class="modal-content" style="max-width:700px;text-align:justify;">
+                  <span class="close" onclick="closeModal('coPaperModal')">&times;</span>
+                  <div id="loading-coPapers" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-coPapers"></div>
+                </div>
+              </div>
             </div>
           </div>
           
