@@ -17,7 +17,7 @@ function buttonVisibility() {
         scrollToTopButton.style.display = "none";
     }
     if (window.innerWidth < 1100) {
-        scrollToSelector.style.display = "none";
+        scrollToSelector.style.display = "block";
     } else {
         scrollToSelector.style.display = "block";
     }
