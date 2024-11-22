@@ -330,12 +330,12 @@
     display: none;
   }
   #scrollToSection button {
-    width: 30px;
+    width: 40px;
     border-radius: 50px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 10px;
   }
   #scrollToTop {
-    width: 45px;
+    width: 40px;
     border-radius: 15Px;
     padding: 5px 5px 5px 5px;
   }

@@ -54,7 +54,7 @@ function sectionButtonPosition() {
   const section = document.querySelector('section');
   if (section) {
     const sectionRect = section.getBoundingClientRect();
-    let buttonRight = window.innerWidth - (sectionRect.right + 190);
+    let buttonRight = window.innerWidth - (sectionRect.right + 200);
     buttonRight = Math.max(buttonRight, 0);
     scrollToSelector.style.right = `${buttonRight}px`;
   }
