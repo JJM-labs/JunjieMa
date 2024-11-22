@@ -99,7 +99,7 @@
         
         <div style="display:flex;align-items:center;margin:0;margin-bottom:4px;">
           <div style="width:141px;display:flex;align-items:center;">
-            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/content/home/qq.txt')" class="image-centered" style="margin-left:5px;">
+            <a href="javascript:void(0)" onclick="showModalWithFile('qqModal','outText-qq','files/content/home/infoQQ.txt')" class="image-centered" style="margin-left:5px;">
               <img src="files/images/logo/qq.webp" width="17" height="16">
               QQ 
             </a>
@@ -112,7 +112,7 @@
             </div>
           </div>
           <div>
-            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/content/home/wx.txt')" class="image-centered">
+            <a href="javascript:void(0)" onclick="showModalWithFile('wxModal','outText-wx','files/content/home/infoWX.txt')" class="image-centered">
               <img src="files/images/logo/wechat.webp" width="16" height="16" style="margin-right:7.5px">
               Wechat  
             </a>
@@ -145,7 +145,7 @@
         
         <p style="display:flex;align-items:flex-start;margin:0 0 20px 8px;">
           <img src="files/images/logo/location.webp" width="12" height="15" style="margin:4px 7px 0 0;">
-          No.2600 Donghai Avenue, Longzihu District, Bengbu, Anhui, China
+          No.2600 Donghai Road, Longzihu District, Bengbu, Anhui, China
         </p>
         
         <p style="line-height:1;margin-left:5px">
@@ -169,15 +169,39 @@
         </p>
         
         <ul>
-          <p class="index-title"> Reward </p> 
-          <li>2020/2021 &nbsp;&nbsp; The First Prize Scholarship</li>
-          <li>2021/2022 &nbsp;&nbsp; The First Prize Scholarship</li>
-          <li>2022/2023 &nbsp;&nbsp; The Grand Prize Scholarship</li>
-          <li>2023/2024 &nbsp;&nbsp; The Grand Prize Scholarship</li>
+          <p class="index-title">Reward</p> 
+          <div style="display:flex;align-items:center;margin:0;margin-bottom:10px;">
+            <div style="width:165px;display:flex;align-items:center;">
+              <li>Undergraduate</li>&nbsp;
+              <a href="javascript:void(0)" onclick="showModalWithFile('scholarshipsBBMU','outText-scholarshipsBBMU','files/content/home/scholarshipsBBMU.txt')" class="modal-img">
+                <img src="files/images/logo/view.webp" width="17" height="15" style="vertical-align:-2.5px;">  
+              </a>
+              <div id="scholarshipsBBMU" class="modal">
+                <div class="modal-content" style="max-width:480px;text-align:justify;">
+                  <span class="close" onclick="closeModal('scholarshipsBBMU')">&times;</span>
+                  <div id="loading-scholarshipsBBMU" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-scholarshipsBBMU"></div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-left:38px">
+              Graduate 
+              <a href="javascript:void(0)" onclick="showModalWithFile('scholarshipsCSU','outText-scholarshipsCSU','files/content/home/scholarshipsCSU.txt')" class="modal-img">
+                <img src="files/images/logo/view.webp" width="16.5" height="15" style="vertical-align:-2.5px;">
+              </a>
+              <div id="scholarshipsCSU" class="modal">
+                <div class="modal-content" style="max-width:480px;text-align:justify;">
+                  <span class="close" onclick="closeModal('scholarshipsCSU')"> &times;</span>
+                  <div id="loading-scholarshipsCSU" class="loading"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                  <div id="outText-scholarshipsCSU"></div>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <p class="index-title">Competitions</p>
           <div style="display:flex;align-items:center;margin:0;margin-bottom:10px;">
-            <div style="width:155px;display:flex;align-items:center;">
+            <div style="width:175px;display:flex;align-items:center;">
               <li>National</li>: 4&nbsp;
               <a href="javascript:void(0)" onclick="showModalWithFile('compModalNational','outText-compNational','files/content/home/compNational.txt')" class="modal-img">
                 <img src="files/images/logo/view.webp" width="17" height="15" style="vertical-align:-2.5px;">  
@@ -207,7 +231,7 @@
           
           <p class="index-title"> Papers </p>
           <div style="display:flex;align-items:center;margin:0;margin-bottom:10px;">
-            <div style="width:160px;display:flex;align-items:center;">
+            <div style="width:172px;display:flex;align-items:center;">
               <li>First author</li>: 4&nbsp;
               <a href="javascript:void(0)" onclick="showModalWithFile('firstPaperModal','outText-firstPapers','files/content/home/papers1st.txt')" class="modal-img">
                 <img src="files/images/logo/view.webp" width="17" height="15" style="vertical-align:-2.5px;">  
