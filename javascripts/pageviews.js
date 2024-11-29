@@ -15,7 +15,7 @@ function displayLastUpdatedData() {
   const analyticsLink=`<a href="https://analytics.google.com" target="_blank">Google Analytics</a>`;  
   
   if (dateElement) {
-    dateElement.innerHTML=`${iconUpdate} Last updated time: ${lastUpdated}`;
+    dateElement.innerHTML=`${iconUpdate} Time of last update: ${lastUpdated}`;
   }
   if (HomeElement) {
     HomeElement.innerHTML=`${iconViews} Pageviews: ${viewsHome} (by ${analyticsLink})`;
