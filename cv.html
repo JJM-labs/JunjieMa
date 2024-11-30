@@ -22,9 +22,8 @@
             var ua = navigator.userAgent;
             var isWindows = /Windows/i.test(ua) && !/Windows Phone/i.test(ua);
             var isMacOS = /Macintosh/i.test(ua);
-            var isiPhone = /iPhone/i.test(ua) && !/iPad/i.test(ua);
             var isLinux = /Linux/i.test(ua) && !/Android/i.test(ua);
-            var isSpecificOS = isWindows || isMacOS || isiPhone || isLinux;
+            var isSpecificOS = isWindows || isMacOS || isLinux;
             if (isSpecificOS) {
                 var pdfViewer = '<iframe src="files/content/home/CV.pdf" style="width:100%;height:100vh;border:none;"></iframe>';
             } else {
@@ -37,6 +36,7 @@
     </script>
   </head>
   <body onload="loadPDFViewer();">
+    <div id="loadingIndicator" class="loading" style="display:none;position:fixed;top:60%;left:60%;transform:translate(-50%,-50%);"><div class="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
     <div id="pdf-container"></div>
     <script src="javascripts/pdf.js"></script>
   </body>

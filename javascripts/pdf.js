@@ -1,5 +1,6 @@
 pdfjsLib.GlobalWorkerOptions.workerSrc = '//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
 async function renderPDF(url) {
+  document.getElementById('loadingIndicator').style.display = 'block';
   const loadingTask = pdfjsLib.getDocument(url);
   const pdf = await loadingTask.promise;
   const numPages = pdf.numPages;
@@ -20,6 +21,9 @@ async function renderPDF(url) {
     pageContainer.className = "pdf-page";
     pageContainer.appendChild(canvas);
     document.getElementById('pdf-viewer').appendChild(pageContainer);
+    if (i === numPages) {
+      document.getElementById('loadingIndicator').style.display = 'none';
+    }
   }
 }
 renderPDF('files/content/home/CV.pdf');
