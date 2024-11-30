@@ -18,16 +18,21 @@
       gtag('config','G-2Q0MHXCJKE');
     </script>
     <script>
-      function loadPDFViewer() {
-        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-        if (isMobile) {
-          var pdfViewer = '<div id="pdf-viewer"></div>' +
-          '<link rel="stylesheet" href="stylesheets/styles_main.css">' +
-          '<link rel="stylesheet" href="stylesheets/styles_detail.css">';
-         } else {
-          var pdfViewer = '<iframe src="files/content/home/CV.pdf" style="width:100%;height:100vh;border:none;"></iframe>';
-        }
-          document.getElementById('pdf-container').innerHTML = pdfViewer;
+        function loadPDFViewer() {
+            var ua = navigator.userAgent;
+            var isWindows = /Windows/i.test(ua) && !/Windows Phone/i.test(ua);
+            var isMacOS = /Macintosh/i.test(ua);
+            var isiPhone = /iPhone/i.test(ua) && !/iPad/i.test(ua);
+            var isLinux = /Linux/i.test(ua) && !/Android/i.test(ua);
+            var isSpecificOS = isWindows || isMacOS || isiPhone || isLinux;
+            if (isSpecificOS) {
+                var pdfViewer = '<iframe src="files/content/home/CV.pdf" style="width:100%;height:100vh;border:none;"></iframe>';
+            } else {
+                var pdfViewer = '<div id="pdf-viewer"></div>\n' +
+                    '<link rel="stylesheet" href="stylesheets/styles_main.css">\n' +
+                    '<link rel="stylesheet" href="stylesheets/styles_detail.css">\n';
+            }
+            document.getElementById('pdf-container').innerHTML = pdfViewer;
         }
     </script>
   </head>
