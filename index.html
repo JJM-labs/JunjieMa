@@ -309,7 +309,7 @@
         <p class="index-title">Curriculum Vitae</p>
         <div style="width:250px;display:flex;align-items:center;">
           <li>Curriculum Vitae</li>&nbsp;&nbsp;&nbsp;
-          <a href="files/content/home/CV.pdf" class="modal-img" target="_blank" id="viewCV">
+          <a href="files/content/home/cv" class="modal-img" target="_blank">
             <img src="files/images/logo/view.webp" width="18.5" height="15" style="vertical-align:-3px;">  
           </a>&nbsp;&nbsp;&nbsp;
           <a href="files/content/home/CV.pdf" class="modal-img" target="_blank" download>
@@ -318,16 +318,9 @@
         </div>
       </section>
     </div>
-    <script>
-document.addEventListener('click', function(e) {
-    if (e.target && e.target.matches('#viewCV')) {
-        e.preventDefault();
-        window.open(e.target.href, '_blank');
-    }
-});
-</script>
     <script src="javascripts/modal.js"></script>
     <script src="javascripts/get.time.js"></script>
+    <script src="javascripts/view.pdf.js"></script>
     <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/pageviews.js"></script>
   </body>
