@@ -26,4 +26,19 @@ async function renderPDF(url) {
     }
   }
 }
+function loadPDFViewer() {
+  var ua = navigator.userAgent;
+  var isWindows = /Windows/i.test(ua) && !/Windows Phone/i.test(ua);
+  var isMacOS = /Macintosh/i.test(ua);
+  var isLinux = /Linux/i.test(ua) && !/Android/i.test(ua);
+  var isSpecificOS = isWindows || isMacOS || isLinux;
+  if (isSpecificOS) {
+    var pdfViewer = '<iframe src="files/content/cv/CV.pdf" style="width:100%;height:100vh;border:none;"></iframe>';
+  } else {
+    var pdfViewer = '<div id="pdf-viewer"></div>' +
+                    '<link rel="stylesheet" href="stylesheets/styles_main.css">' +
+                    '<link rel="stylesheet" href="stylesheets/styles_detail.css">';
+  }
+  document.getElementById('pdf-container').innerHTML = pdfViewer;
+}
 renderPDF('files/content/cv/CV.pdf');
