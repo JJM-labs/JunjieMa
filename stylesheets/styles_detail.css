@@ -358,8 +358,8 @@ canvas {
     width:30px;
     padding:5px 5px 5px 5px;
   }
-  .scrollToTop {
-    width:30px;
+  #scrollToTop {
+    width:35px;
     border-radius:15Px;
     padding:5px 5px 5px 5px;
   }
