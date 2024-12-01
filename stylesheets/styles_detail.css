@@ -194,7 +194,7 @@
   box-shadow:0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-#scrollToSection {
+.scrollToSection {
   top:60%;
   right:20px;
   z-index:99;
@@ -202,7 +202,7 @@
   transform:translateY(-50%);
 }
 
-#scrollToSection button {
+.scrollToSection button {
   width:110px;
   border:none;
   outline:none;
@@ -220,7 +220,7 @@
   transition:color 0.5s ease, transform 0.6s ease, box-shadow 0.5s ease, background 0.5s ease, backdrop-filter 0.5s ease;
 }
 
-#scrollToSection button:hover {
+.scrollToSection button:hover {
   color:#1c7aae;
   transform:translateY(-5px);
   backdrop-filter:blur(15px);
@@ -228,7 +228,7 @@
   box-shadow:0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
-#scrollToSection button:active {
+.scrollToSection button:active {
   transform:translateY(2px);
   backdrop-filter:blur(5px);
   box-shadow:0 4px 15px rgba(0, 0, 0, 0.2);
@@ -351,12 +351,14 @@ canvas {
   .button-text {
     display:none;
   }
-  #scrollToSection button {
+  .scrollToSection {
+    right:1px;
+  }
+  .scrollToSection button {
     width:30px;
-    border-radius:50px;
     padding:5px 5px 5px 5px;
   }
-  #scrollToTop {
+  .scrollToTop {
     width:30px;
     border-radius:15Px;
     padding:5px 5px 5px 5px;
