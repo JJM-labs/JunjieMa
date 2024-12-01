@@ -1,8 +1,8 @@
 // const data
-const viewsHome="54";
-const viewsResearch="46";
-const viewsEducation="35";
-const lastUpdated="November 8, 2024";
+const viewsHome="72";
+const viewsResearch="59";
+const viewsEducation="46";
+const lastUpdated="December 2, 2024";
 
 // function
 function displayLastUpdatedData() {
