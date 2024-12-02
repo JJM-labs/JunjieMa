@@ -352,7 +352,7 @@ canvas {
     display:none;
   }
   .scrollToSection {
-    top:90%;
+    top:60%;
     right:1px;
   }
   .scrollToSection button {
