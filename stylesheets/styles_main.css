@@ -43,7 +43,10 @@ a {
 }
 
 a:hover {
+  padding:0;
   color:#156082;
+  border-radius:5px;
+  background-color:rgba(51, 153, 204, 0.2); 
 }
 
 a small {
@@ -54,6 +57,25 @@ a small {
 
 a:hover small {
   color:#777;
+}
+
+a[mytitle] {
+  position:relative;
+}
+
+a[mytitle]:hover::after {
+  top:100%;
+  left:50%;
+  padding:3px;
+  z-index:1000;
+  color:#3399cc;
+  font-size:14px;
+  position:absolute;
+  white-space:nowrap;
+  border-radius:10px;
+  content:attr(mytitle);
+  transform:translate(-50%, 0);
+  background-color:rgba(255, 255, 255, 0.2);
 }
 
 blockquote {
@@ -316,5 +338,9 @@ footer {
   
   hr {
     background-color: #fff; 
+  }
+  
+  a[mytitle]:hover::after {
+    background-color: #424242;
   }
 }
