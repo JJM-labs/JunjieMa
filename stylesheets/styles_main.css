@@ -44,9 +44,9 @@ a {
 
 a:hover {
   padding:0;
-  color:#156082;
+  /*color:#156082;
   border-radius:5px;
-  background-color:rgba(51, 153, 204, 0.2); 
+  background-color:rgba(51, 153, 204, 0.2);*/
 }
 
 a small {
@@ -64,7 +64,7 @@ a[mytitle] {
 }
 
 a[mytitle]:hover::after {
-  top:-80%;
+  top:-85%;
   left:50%;
   padding:0;
   z-index:1000;
