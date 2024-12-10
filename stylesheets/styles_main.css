@@ -67,7 +67,6 @@ a[mytitle]:hover::after {
   top:-85%;
   left:50%;
   padding:0;
-  z-index:1000;
   color:#156082;
   font-size:14px;
   position:absolute;
