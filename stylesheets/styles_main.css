@@ -348,6 +348,10 @@ canvas {
     background-color: #fff; 
   }
   
+  canvas {
+    display:none;
+  }
+
   a[mytitle]:hover::after {
     background-color: #424242;
   }
