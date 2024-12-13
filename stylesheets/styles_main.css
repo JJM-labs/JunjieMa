@@ -1,15 +1,15 @@
 body {
-  color: black;
+  color:black;
   padding:50px;
   font-weight:400;
-  background-color: #fff;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  transition: background-color 0.5s, color 0.5s;
-  background-image: url('../files/images/logo/background.webp'); 
-  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color:#fff;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+  transition:background-color 0.5s, color 0.5s;
+  background-image:url('../files/images/logo/background.webp');
+  font:15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,15 +26,15 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
-  font-weight: 500;
+  font-weight:500;
 }
 
 h2 {
-  font-weight: 500;
+  font-weight:500;
 }
 
 h3, h4, h5, h6 {
-  font-weight: 500;
+  font-weight:500;
 }
 
 a {
@@ -85,8 +85,8 @@ blockquote {
 }
 
 bi {
-  font-weight: bold;
-  font-style: italic;
+  font-weight:bold;
+  font-style:italic;
 }
 
 code, pre {
@@ -96,10 +96,10 @@ code, pre {
 }
 
 pre {
-  overflow-x: auto;
+  overflow-x:auto;
   padding:8px 15px;
   border-radius:5px;
-  background: #f8f8f8;
+  background:#f8f8f8;
   border:1px solid #e5e5e5;
 }
 
@@ -128,25 +128,25 @@ img {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; 
+  margin:0;
+  padding:0;
+  list-style-type:none;
 }
 
 li {
-  margin: 0;
-  display: flex; 
-  align-items: center;
+  margin:0;
+  display:flex;
+  align-items:center;
 }
 
 li::before {
-  content: "";
-  width: 13px; 
-  height: 13px; 
-  margin-right: 8px;
-  display: inline-block;
-  background-size: cover; 
-  background-image: url('../files/images/logo/li.webp');
+  content:"";
+  width:13px;
+  height:13px;
+  margin-right:8px;
+  display:inline-block;
+  background-size:cover;
+  background-image:url('../files/images/logo/li.webp');
 }
 
 header {
@@ -154,16 +154,16 @@ header {
   width:270px;
   height:90vh;
   position:fixed;
-  overflow: hidden;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  -webkit-overflow-scrolling: touch;
+  overflow:hidden;
+  overflow-y:scroll;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+  -webkit-overflow-scrolling:touch;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
 header::-webkit-scrollbar {
-  display: none;
+  display:none;
 }
 
 header ul {
@@ -172,7 +172,7 @@ header ul {
   width:270px;
   list-style:none;
   border-radius:5px;
-  background: #f4f4f4;
+  background:#f4f4f4;
   border:1px solid #e0e0e0;
 }
 
@@ -237,11 +237,11 @@ small {
 
 hr {
   border:0;
-  margin: 0; 
-  width: 95%;
-  height: 1.5px;
-  margin-top: 40px; 
-  background-color: black;
+  margin:0;
+  width:95%;
+  height:1.5px;
+  margin-top:40px;
+  background-color:black;
 }
 
 footer {
@@ -261,8 +261,7 @@ canvas {
   position:fixed;
 }
 
-@media print, screen and (max-width: 960px) {
-
+@media print, screen and (max-width:960px) {
   div.wrapper {
     width:auto;
     margin:0;
@@ -281,9 +280,9 @@ canvas {
   section {
     padding:20px 0;
     margin:0 0 20px;
-    border-style: solid; 
-    border-color: #e5e5e5;
-    border-width: 1px 0 0 0;
+    border-style:solid;
+    border-color:#e5e5e5;
+    border-width:1px 0 0 0;
   }
 
   header a small {
@@ -297,33 +296,28 @@ canvas {
   }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width:720px) {
   body {
     word-wrap:break-word;
   }
-
   header {
     padding:0;
   }
-
   header ul, header p.view {
     position:static;
   }
-
   pre, code {
     word-wrap:normal;
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width:480px) {
   body {
     padding:15px;
   }
-
   header ul {
     width:99%;
   }
-
   header li, header ul li + li + li {
     width:33%;
   }
@@ -337,26 +331,22 @@ canvas {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme:dark) {
   body {
-    color: #fff;
-    background-image: none;
-    background-color: #303030;
+    color:#fff;
+    background-image:none;
+    background-color:#303030;
   }
-  
   hr {
-    background-color: #fff; 
+    background-color:#fff;
   }
-  
   canvas {
     display:none;
   }
-  
   li::before {
-    background-image: url('../files/images/logo/li-dark.webp');
+    background-image:url('../files/images/logo/li-dark.webp');
   }
-  
   a[mytitle]:hover::after {
-    background-color: #424242;
+    background-color:#424242;
   }
 }
