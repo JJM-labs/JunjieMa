@@ -4,7 +4,7 @@ let w=window.innerWidth;
 let h=window.innerHeight;
 canvas.width=w;
 canvas.height=h;
-let num=w<1099?300:800;
+let num=w/4+50;
 let snows=[];
 for(let i=0;i<num;i++){
   snows.push({
