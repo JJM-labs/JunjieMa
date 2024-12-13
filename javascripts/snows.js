@@ -10,7 +10,7 @@ for(let i=0;i<num;i++){
   snows.push({
     x:Math.random()*w,
     y:Math.random()*h,
-    d:Math.random()*num
+    d:Math.random()*num,
     r:w<1099 ? Math.random()*2+1 : Math.random()*3+1,
   });
 };
