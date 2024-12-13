@@ -351,7 +351,11 @@ canvas {
   canvas {
     display:none;
   }
-
+  
+  li::before {
+    background-image: url('../files/images/logo/li-dark.webp');
+  }
+  
   a[mytitle]:hover::after {
     background-color: #424242;
   }
