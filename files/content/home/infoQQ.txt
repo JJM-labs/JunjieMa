@@ -2,6 +2,6 @@
      Use QQ to scan the QR code 
 </p>
 <p style="font-size: 20px; margin-bottom: 15px; color: #86accd;">
-     QQ number: 2939542961 (ID: mjj1428)
+     QQ number: 2939542961
 </p>
 <img src="./files/images/logo/qq-qrcode.webp">
