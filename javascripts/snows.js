@@ -4,14 +4,14 @@ let w=window.innerWidth;
 let h=window.innerHeight;
 canvas.width=w;
 canvas.height=h;
-let num=w<1099 ? 300 : 800;
+let num=w<1099?300:800;
 let snows=[];
 for(let i=0;i<num;i++){
   snows.push({
     x:Math.random()*w,
     y:Math.random()*h,
     d:Math.random()*num,
-    r:w<1099 ? Math.random()*2+1 : Math.random()*3+1,
+    r:w<1099?Math.random()*2+1:Math.random()*3+1,
   });
 };
 function drawSnowflake(context,x,y,size) {
@@ -26,7 +26,7 @@ function drawSnowflake(context,x,y,size) {
   context.shadowBlur=10;
   context.fill();
 };
-let move=() => {
+let move=()=>{
   for(let i=0;i<num;i++){
     let p=snows[i];
     p.y+=Math.cos(p.d)+1+p.r/2;
@@ -44,7 +44,7 @@ let move=() => {
     }
   }
 };
-let draw=() => {
+let draw=()=>{
   context.clearRect(0,0,w,h);
   for (let i=0;i<num;i++) {
     let p=snows[i];
