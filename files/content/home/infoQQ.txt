@@ -1,5 +1,5 @@
 <p style="font-size: 20px; margin-bottom: 5px; color: #86accd;">
-     Use QQ to scan the QR code 
+     Scan the QR code via QQ
 </p>
 <p style="font-size: 20px; margin-bottom: 15px; color: #86accd;">
      QQ number: 2939542961

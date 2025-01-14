@@ -1,5 +1,5 @@
 <p style="font-size: 20px; margin-bottom: 5px; color: #86accd;">
-     Use WeChat to scan the QR code 
+     Scan the QR code via WeChat
 </p>
 <p style="font-size: 20px; margin-bottom: 15px; color: #86accd;">
      WeChat ID: mjj1428
