@@ -1,25 +1,6 @@
 function showModal(modalId) {
   document.getElementById(modalId).style.display = 'flex';
 }
-function closeModal(modalId) {
-  document.getElementById(modalId).style.display = 'none';
-}
-window.onclick = function(event) {
-    var modals = document.querySelectorAll('.modal');
-    modals.forEach(modal => {
-      if (event.target === modal) {
-        closeModal(modal.id); 
-      }
-    });
-};
-
-function showModal(modalId) {
-  document.getElementById(modalId).style.display = 'flex';
-}
-
-function closeModal(modalId) {
-  document.getElementById(modalId).style.display = 'none';
-}
 
 function showModalWithFile(modalId, outTextId, fileName) {
   const uniqueId = outTextId.split('-')[1];
@@ -41,3 +22,26 @@ function showModalWithFile(modalId, outTextId, fileName) {
     });
   }, 500);
 }
+
+function closeModal(modalId) {
+  document.getElementById(modalId).style.display = 'none';
+}
+
+window.onclick = function(event) {
+    var modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
+      if (event.target === modal) {
+        closeModal(modal.id); 
+      }
+    });
+};
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape' || event.keyCode === 27) {
+    document.querySelectorAll('.modal').forEach(modal => {
+      if (modal.style.display === 'flex') {
+        closeModal(modal.id);
+      }
+    });
+  }
+});

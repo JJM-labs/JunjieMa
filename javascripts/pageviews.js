@@ -1,10 +1,8 @@
-// const data
 const viewsHome="72";
 const viewsResearch="59";
 const viewsEducation="46";
 const lastUpdated="December 2, 2024";
 
-// function
 function displayLastUpdatedData() {
   const HomeElement=document.getElementById("viewsHome");
   const dateElement=document.getElementById("lastUpdatedDate");
