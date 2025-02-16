@@ -2,6 +2,10 @@ function showModal(modalId) {
   document.getElementById(modalId).style.display = 'flex';
 }
 
+function closeModal(modalId) {
+  document.getElementById(modalId).style.display = 'none';
+}
+
 function showModalWithFile(modalId, outTextId, fileName) {
   const uniqueId = outTextId.split('-')[1];
   const loadingId = 'loading-' + uniqueId;
@@ -21,10 +25,6 @@ function showModalWithFile(modalId, outTextId, fileName) {
       document.getElementById(outTextId).innerText = 'Error loading file.';
     });
   }, 500);
-}
-
-function closeModal(modalId) {
-  document.getElementById(modalId).style.display = 'none';
 }
 
 window.onclick = function(event) {
