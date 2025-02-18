@@ -3,7 +3,7 @@
 </p>
 
 <ul style="font-size:18px; line-height:30px; text-align: left;margin-bottom:20px;">
-     <li style="font-size:20px;margin-bottom:5px;">Undergraduate Period</li>
+     <p style="font-size:20px;margin-bottom:5px;">Undergraduate Period</p>
      <div style="margin-left:12px;">
           <li> 
               2024-08 &nbsp;|&nbsp; Chinese Collegiate Computing Competition &nbsp;|&nbsp; Third Prize &nbsp;  
