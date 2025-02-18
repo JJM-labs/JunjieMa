@@ -80,4 +80,5 @@ document.addEventListener('DOMContentLoaded', () => {
   sectionButtonPosition();
   buttonVisibility(); 
 });
+
 buttonVisibility();
