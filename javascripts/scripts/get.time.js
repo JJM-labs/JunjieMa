@@ -9,7 +9,7 @@ function updateTime() {
     const offsetHours = String(Math.abs(Math.floor(timezoneOffset / 60))).padStart(2, '0');
     const offsetMinutes = String(Math.abs(timezoneOffset % 60)).padStart(2, '0');
     const offsetSign = timezoneOffset > 0 ? '-' : '+';
-    const formattedTime = `${hours}:${minutes}:${seconds} ${dayOfWeek} (UTC${offsetSign}${offsetHours}:${offsetMinutes})`;
+    const formattedTime = `${hours}:${minutes}:${seconds}${' '}${dayOfWeek}${' '}(UTC${offsetSign}${offsetHours}:${offsetMinutes})`;
     document.getElementById('time').textContent = formattedTime;
 }
 setInterval(updateTime, 1000);
