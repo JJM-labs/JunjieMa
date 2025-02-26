@@ -262,6 +262,14 @@ canvas {
   position:fixed;
 }
 
+/*
+@font-face {
+  font-family: 'MiSans';
+  src: url('files/fonts/MiSans/MiSans.woff2') format('woff2'),
+       url('files/fonts/MiSans//MiSans.woff') format('woff');
+}
+*/
+
 @media print, screen and (max-width:960px) {
   div.wrapper {
     width:auto;
